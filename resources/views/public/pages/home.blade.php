@@ -78,16 +78,16 @@
         <div class="home-visual-container">
             <header class="home-visual-heading home-visual-heading--prices">
                 @if($home['prices']['eyebrow'] !== '')<span class="home-visual-kicker">{{ $home['prices']['eyebrow'] }}</span>@endif
-                <div>
-                    <h2 id="home-prices-title">@include('public.partials.visual-copy', ['copy' => $home['prices']['title']])</h2>
-                    <p class="home-visual-updated">{{ $prices['copy']['updated'] }}：{{ $prices['meta']['updatedAt'] }}</p>
-                </div>
+                <h2 id="home-prices-title">@include('public.partials.visual-copy', ['copy' => $home['prices']['title']])</h2>
             </header>
-            <div class="home-visual-prices__layout">
-                <div class="home-visual-intro home-visual-intro--prices">
-                    <p>@include('public.partials.visual-copy', ['copy' => $home['prices']['lead']])</p>
+            <div class="home-visual-prices-subhead">
+                <p class="home-visual-updated">{{ $prices['copy']['updated'] }}：{{ $prices['meta']['updatedAt'] }}</p>
+                <div class="home-visual-prices-lead-row">
+                    <p class="home-visual-prices-lead">{{ $home['prices']['lead']['text'] }}</p>
                     <a class="home-visual-outline-link" href="{{ route('public.prices', ['locale' => $locale]) }}">{{ $home['prices']['link'] }} <span aria-hidden="true">→</span></a>
                 </div>
+            </div>
+            <div class="home-visual-prices__layout">
                 <div class="home-visual-price-grid">
                     @foreach ($prices['metals'] as $metal)
                         @php
