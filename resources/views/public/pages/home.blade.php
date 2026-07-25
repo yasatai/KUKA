@@ -82,12 +82,12 @@
             </header>
             <div class="home-visual-prices-subhead">
                 <p class="home-visual-updated">{{ $prices['copy']['updated'] }}：{{ $prices['meta']['updatedAt'] }}</p>
-                <p class="home-visual-prices-lead">{{ $home['prices']['lead']['text'] }}</p>
-            </div>
-            <div class="home-visual-prices__layout">
-                <div class="home-visual-intro home-visual-intro--prices">
+                <div class="home-visual-prices-lead-row">
+                    <p class="home-visual-prices-lead">{{ $home['prices']['lead']['text'] }}</p>
                     <a class="home-visual-outline-link" href="{{ route('public.prices', ['locale' => $locale]) }}">{{ $home['prices']['link'] }} <span aria-hidden="true">→</span></a>
                 </div>
+            </div>
+            <div class="home-visual-prices__layout">
                 <div class="home-visual-price-grid">
                     @foreach ($prices['metals'] as $metal)
                         @php
