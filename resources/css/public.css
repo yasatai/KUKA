@@ -18,3 +18,8 @@
 .kuka-footer__contact-primary,.kuka-footer__contact-disabled{font-size:.92rem}
 .kuka-footer__bottom{font-size:.82rem}
 /* === /footer font-size override === */
+
+
+/* === home prices lead reposition (2026-07-26) : リード文を更新日時の下に配置。余白と最大幅のみ調整 === */
+.home-visual-prices-lead{margin:12px auto 0;max-width:34em}
+/* === /home prices lead reposition === */

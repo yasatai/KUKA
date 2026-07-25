@@ -81,11 +81,11 @@
                 <div>
                     <h2 id="home-prices-title">@include('public.partials.visual-copy', ['copy' => $home['prices']['title']])</h2>
                     <p class="home-visual-updated">{{ $prices['copy']['updated'] }}：{{ $prices['meta']['updatedAt'] }}</p>
+                    <p class="home-visual-prices-lead">@include('public.partials.visual-copy', ['copy' => $home['prices']['lead']])</p>
                 </div>
             </header>
             <div class="home-visual-prices__layout">
                 <div class="home-visual-intro home-visual-intro--prices">
-                    <p>@include('public.partials.visual-copy', ['copy' => $home['prices']['lead']])</p>
                     <a class="home-visual-outline-link" href="{{ route('public.prices', ['locale' => $locale]) }}">{{ $home['prices']['link'] }} <span aria-hidden="true">→</span></a>
                 </div>
                 <div class="home-visual-price-grid">
