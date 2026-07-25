@@ -20,6 +20,9 @@
 /* === /footer font-size override === */
 
 
-/* === home prices lead reposition (2026-07-26) : リード文を更新日時の下に配置。余白と最大幅のみ調整 === */
-.home-visual-prices-lead{margin:12px auto 0;max-width:34em}
+/* === home prices lead reposition (2026-07-26) : リード文を更新日時の下・中央に配置。金線はh2の横 === */
+body[data-page=home] .home-visual-heading--prices{margin-bottom:12px}
+.home-visual-prices-subhead{text-align:center;margin-bottom:clamp(18px,2vw,28px)}
+.home-visual-prices-subhead .home-visual-updated{margin:0}
+.home-visual-prices-lead{margin:8px auto 0;max-width:40em}
 /* === /home prices lead reposition === */

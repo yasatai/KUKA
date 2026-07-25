@@ -78,12 +78,12 @@
         <div class="home-visual-container">
             <header class="home-visual-heading home-visual-heading--prices">
                 @if($home['prices']['eyebrow'] !== '')<span class="home-visual-kicker">{{ $home['prices']['eyebrow'] }}</span>@endif
-                <div>
-                    <h2 id="home-prices-title">@include('public.partials.visual-copy', ['copy' => $home['prices']['title']])</h2>
-                    <p class="home-visual-updated">{{ $prices['copy']['updated'] }}：{{ $prices['meta']['updatedAt'] }}</p>
-                    <p class="home-visual-prices-lead">@include('public.partials.visual-copy', ['copy' => $home['prices']['lead']])</p>
-                </div>
+                <h2 id="home-prices-title">@include('public.partials.visual-copy', ['copy' => $home['prices']['title']])</h2>
             </header>
+            <div class="home-visual-prices-subhead">
+                <p class="home-visual-updated">{{ $prices['copy']['updated'] }}：{{ $prices['meta']['updatedAt'] }}</p>
+                <p class="home-visual-prices-lead">{{ $home['prices']['lead']['text'] }}</p>
+            </div>
             <div class="home-visual-prices__layout">
                 <div class="home-visual-intro home-visual-intro--prices">
                     <a class="home-visual-outline-link" href="{{ route('public.prices', ['locale' => $locale]) }}">{{ $home['prices']['link'] }} <span aria-hidden="true">→</span></a>
