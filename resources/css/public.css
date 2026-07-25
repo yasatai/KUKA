@@ -28,3 +28,13 @@ body[data-page=home] .home-visual-heading--prices{margin-bottom:12px}
 .home-visual-prices-lead-row .home-visual-prices-lead{margin:0;max-width:40em}
 body[data-page=home] .home-visual-prices__layout{grid-template-columns:1fr}
 /* === /home prices lead reposition === */
+/* === prices intro hero (2026-07-26) : 画像を全幅背景化して左の空白を解消。更新日時は画像内(コピー先頭)に配置。PC幅のみ === */
+@media screen and (min-width:768px){
+  body[data-page=prices] .prices-intro__inner{display:flex;align-items:center;position:relative;min-height:clamp(340px,28vw,420px);padding-top:0;gap:0}
+  body[data-page=prices] .prices-intro__media{position:absolute;inset:0;width:100%;min-height:0;aspect-ratio:auto;order:0}
+  body[data-page=prices] .prices-intro__media img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:55% 50%}
+  body[data-page=prices] .prices-intro__media:before{inset:0 30% 0 0;height:auto;background:linear-gradient(90deg,#fff 15%,rgba(255,255,255,.72) 55%,transparent)}
+  body[data-page=prices] .prices-intro__copy{position:relative;z-index:2;order:0;flex:0 1 auto;max-width:min(560px,60%);padding-block:clamp(30px,3.6vw,52px)}
+  body[data-page=prices] .prices-intro__updated{position:static;left:auto;top:auto;width:auto;white-space:normal;margin:0 0 10px}
+}
+/* === /prices intro hero === */
