@@ -1,0 +1,50 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-items.png", "alt": "金属製品やジュエリーを並べた開発用イメージ", "eyebrow": "Purchase categories", "title": "買取品目", "lead": "さまざまな貴金属を丁寧に確認し、品位・重量・状態に応じて査定いたします。" },
+    "breadcrumb": "買取品目",
+    "assurance_label": "買取サービスのご案内",
+    "categories_eyebrow": "Categories",
+    "categories_title": "買取対象の貴金属",
+    "categories_lead": "地金・コイン・ジュエリー・製品・スクラップなど、幅広い品目を一点ずつ確認します。",
+    "detail_label": "詳細を見る",
+    "unavailable_eyebrow": "Unavailable",
+    "unavailable_title": "買取できないもの",
+    "review_eyebrow": "Needs review",
+    "review_title": "事前確認が必要な品",
+    "faq_eyebrow": "FAQ",
+    "faq_title": "買取品目についてよくあるご質問",
+    "bottom_title": "安心してご利用いただけます",
+    "cta": { "title": "どんなものが買取できるか迷ったら、お気軽にご相談ください。", "lead": "写真を送るだけで、査定前の確認ができます。", "line": "LINEで事前相談する", "contact": "無料査定を申し込む", "pending": "電話番号・受付時間は正式情報提供後に掲載します。" }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "査定料・キャンセル料", "description": "無料" },
+    { "mark": "UP", "title": "価格情報を更新", "description": "開発用相場を公開" },
+    { "mark": "DAY", "title": "お支払い方法", "description": "正式条件確認中" },
+    { "mark": "MIX", "title": "細かい品も", "description": "まとめて確認" }
+  ],
+  "categories": [
+    { "id": "gold", "name": "地金・インゴット", "mark": "Au", "description": "金・銀・プラチナ・パラジウムの地金やインゴットを確認します。", "note": "ブランド・刻印を確認", "image": "images/pages/hero-prices.png", "alt": "地金を配した開発用イメージ" },
+    { "id": "coins", "name": "金貨・銀貨・記念コイン", "mark": "Co", "description": "金貨や銀貨、記念コイン、海外コインなどを一点ずつ確認します。", "note": "1点から確認可能", "image": "images/pages/hero-items.png", "alt": "コインと貴金属の開発用イメージ" },
+    { "id": "jewelry", "name": "ジュエリー・アクセサリー", "mark": "Jw", "description": "切れたネックレス、片方だけのピアス、石の外れた指輪もご相談ください。", "note": "状態を問わず相談可能", "image": "images/brand/fv-background.jpeg", "alt": "装飾品を配した開発用イメージ" },
+    { "id": "silver", "name": "銀製品", "mark": "Ag", "description": "銀器、カトラリー、置物など、銀製品の材質と刻印を確認します。", "note": "変色・傷があっても確認", "image": "images/pages/hero-items.png", "alt": "銀製品を想定した開発用イメージ" },
+    { "id": "platinum", "name": "プラチナ製品", "mark": "Pt", "description": "プラチナの指輪やネックレス、工業用素材などを確認します。", "note": "Pt刻印を確認", "image": "images/pages/hero-process.png", "alt": "査定道具と貴金属の開発用イメージ" },
+    { "id": "palladium", "name": "パラジウム製品", "mark": "Pd", "description": "パラジウムの指輪、工業用素材、合金製品などをご相談いただけます。", "note": "Pd刻印を確認", "image": "images/pages/hero-top.png", "alt": "貴金属製品の開発用イメージ" },
+    { "id": "scrap", "name": "金・銀・プラチナのスクラップ", "mark": "Sc", "description": "端材、破損品、部品、切れたチェーンなども材質を確認します。", "note": "品位不明でも相談可能", "image": "images/pages/hero-process.png", "alt": "査定対象品を配した開発用イメージ" },
+    { "id": "tableware", "name": "工業用素材", "mark": "In", "description": "貴金属を含む線材、板材、部品など、法人・大量のお持ち込みも確認します。", "note": "大型・大量は事前相談", "image": "images/pages/hero-company.png", "alt": "工業用素材を想定した開発用イメージ" }
+  ],
+  "unavailable": ["所有関係を確認できない品", "法令で取引が制限される品", "安全に確認・保管できない品", "真贋・材質を確認できない一部の品"],
+  "needsReview": ["刻印のないお品物", "付属品や異素材を含むお品物", "大型または特殊形状のお品物", "法人・大量のお持ち込み"],
+  "faq": [
+    { "question": "刻印がない商品は買取できますか？", "answer": "刻印がない場合も材質を確認できることがあります。状態によりお預かり確認となる場合があります。" },
+    { "question": "壊れていたり、切れているアクセサリーでも大丈夫ですか？", "answer": "切れたチェーンや片方だけのピアスなども、素材を確認できる場合があります。" },
+    { "question": "石がついているジュエリーは査定に影響しますか？", "answer": "評価方法は品物により異なります。正式な査定基準はバックエンド実装後に反映します。" },
+    { "question": "海外製品やブランド品でも相談できますか？", "answer": "一点ずつ材質や状態を確認します。ブランド価値の取扱条件は正式運用前に確定します。" },
+    { "question": "どのような状態でも見てもらえますか？", "answer": "安全に確認できる品は一点から相談できます。法令や保管上の理由で受付できない場合があります。" }
+  ],
+  "bottomAssurances": [
+    { "mark": "¥0", "title": "査定料・手数料", "description": "相談時の費用はかかりません" },
+    { "mark": "DAY", "title": "お支払い条件", "description": "正式運用情報を確認中です" },
+    { "mark": "INFO", "title": "わかりやすい説明", "description": "確認内容を丁寧にご案内します" },
+    { "mark": "LOCK", "title": "プライバシーに配慮", "description": "個人情報を適切に管理します" }
+  ]
+}

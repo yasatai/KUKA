@@ -1,0 +1,89 @@
+{
+  "disabled_label": "공식 정보 또는 링크 제공 후 활성화됩니다",
+  "brand": {
+    "description": "각 감정 과정을 알기 쉽게 설명하는 귀금속 매입 서비스의 검토용 사이트입니다.",
+    "specialty": "금・은・백금・팔라듐 전문 매입 사이트"
+  },
+  "groups": [
+    {
+      "key": "prices",
+      "title": "시세 정보",
+      "page_key": "prices",
+      "links": [
+        { "label": "오늘의 참고 매입 가격", "page_key": "prices", "enabled": true },
+        { "label": "시세 정보", "page_key": "prices", "enabled": true },
+        { "label": "금・은・백금・팔라듐 가격", "page_key": "prices", "enabled": true },
+        { "label": "인쇄／PDF 안내", "page_key": "prices", "enabled": true }
+      ]
+    },
+    {
+      "key": "items",
+      "title": "매입 품목",
+      "page_key": "items",
+      "links": [
+        { "label": "지금・잉곳", "page_key": "items", "enabled": true },
+        { "label": "코인・메달", "page_key": "items", "enabled": true },
+        { "label": "주얼리・액세서리", "page_key": "items", "enabled": true },
+        { "label": "은 제품", "page_key": "items", "enabled": true },
+        { "label": "백금 제품", "page_key": "items", "enabled": true },
+        { "label": "팔라듐 제품", "page_key": "items", "enabled": true },
+        { "label": "스크랩・산업용 소재", "page_key": "items", "enabled": true }
+      ]
+    },
+    {
+      "key": "process",
+      "title": "거래 절차",
+      "page_key": "process",
+      "links": [
+        { "label": "처음 이용하시는 분", "page_key": "process", "enabled": true },
+        { "label": "방문・접수", "page_key": "process", "enabled": true },
+        { "label": "감정・금액 제시", "page_key": "process", "enabled": true },
+        { "label": "본인 확인", "page_key": "process", "enabled": true },
+        { "label": "계약・지급", "page_key": "process", "enabled": true },
+        { "label": "필요 서류", "page_key": "process", "enabled": true }
+      ]
+    },
+    {
+      "key": "company",
+      "title": "회사 정보",
+      "page_key": "company",
+      "links": [
+        { "label": "회사 개요", "page_key": "company", "enabled": true },
+        { "label": "오시는 길・지도", "page_key": "company", "enabled": true },
+        { "label": "영업시간", "page_key": "company", "enabled": true },
+        { "label": "허가 정보", "page_key": "company", "enabled": true },
+        { "label": "운영자 정보", "page_key": "company", "enabled": true }
+      ]
+    },
+    {
+      "key": "news",
+      "title": "공지사항",
+      "page_key": "news",
+      "links": [
+        { "label": "공지사항 목록", "page_key": "news", "enabled": true },
+        { "label": "영업 캘린더", "page_key": "news", "enabled": true },
+        { "label": "중요 공지", "page_key": "news", "enabled": true }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "문의",
+    "lead": "공식 연락처 승인 후 활성화됩니다. 문의 양식은 개발용 미리보기입니다.",
+    "links": [
+      { "label": "문의 양식", "page_key": "contact", "enabled": true },
+      { "label": "LINE 상담（미연결）", "page_key": null, "enabled": false },
+      { "label": "전화 상담（미등록）", "page_key": null, "enabled": false },
+      { "label": "매장 상담（공식 정보 대기）", "page_key": null, "enabled": false }
+    ]
+  },
+  "legal": {
+    "title": "각종 서류・약관",
+    "links": [
+      { "label": "개인정보 처리방침", "page_key": null, "enabled": false },
+      { "label": "거래 약관", "page_key": null, "enabled": false },
+      { "label": "사이트맵", "page_key": null, "enabled": false }
+    ],
+    "copyright": "© 2026 KUKA. Development preview.",
+    "release_note": "정식 공개 전까지 검색 엔진 등록을 중지합니다."
+  }
+}

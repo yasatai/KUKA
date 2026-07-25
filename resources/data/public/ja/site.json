@@ -1,0 +1,119 @@
+{
+  "locale": { "label": "日本語", "short_label": "日本語", "review_label": "" },
+  "meta": { "fixture": true, "notice": "掲載内容は開発用データです。正式情報の提供後に差し替えます。", "review_banner": "" },
+  "publication": { "translation_status": "approved", "pages": {
+    "home": { "page_status": "published", "is_indexable": true }, "prices": { "page_status": "published", "is_indexable": true }, "items": { "page_status": "published", "is_indexable": true }, "process": { "page_status": "published", "is_indexable": true }, "company": { "page_status": "published", "is_indexable": true }, "news": { "page_status": "published", "is_indexable": true }, "news_show": { "page_status": "published", "is_indexable": true }, "contact": { "page_status": "published", "is_indexable": true }
+  } },
+  "brand": { "name": "KUKA", "tagline": "貴金属買取サービス", "description": "大切なお品物を、わかりやすく丁寧に査定する貴金属買取サービスの公開サイトです。" },
+  "navigation": [
+    { "page_key": "home", "label": "ホーム", "home_label": "トップページ" }, { "page_key": "prices", "label": "相場情報" }, { "page_key": "items", "label": "買取品目" }, { "page_key": "process", "label": "お取引の流れ" }, { "page_key": "company", "label": "会社情報" }, { "page_key": "news", "label": "お知らせ" }, { "page_key": "contact", "label": "お問い合わせ" }
+  ],
+  "assurances": [
+    { "title": "査定料 0円", "description": "査定に関する費用はかかりません。" }, { "title": "明瞭なご案内", "description": "査定の考え方をわかりやすくお伝えします。" }, { "title": "プライバシー配慮", "description": "落ち着いて相談できる環境を大切にします。" }
+  ],
+  "seo": {
+    "home": { "title": "KUKA｜貴金属買取サービス", "description": "金・銀・プラチナ・パラジウムなどの買取情報をご案内するKUKA公式サイト（公開準備中）です。" }, "prices": { "title": "相場情報｜KUKA", "description": "金・銀・プラチナ・パラジウムの開発用参考価格と品位別価格表をご案内します。" }, "items": { "title": "買取品目｜KUKA", "description": "KUKAで取り扱い予定の貴金属・ジュエリー等の品目をご案内します。" }, "process": { "title": "お取引の流れ｜KUKA", "description": "ご相談からお支払いまでの流れと必要書類の考え方をご案内します。" }, "company": { "title": "会社情報｜KUKA", "description": "KUKAの会社・店舗情報ページです。正式情報は提供後に掲載します。" }, "news": { "title": "お知らせ｜KUKA", "description": "KUKAからのお知らせと営業情報をご案内します。" }, "contact": { "title": "お問い合わせ｜KUKA", "description": "KUKAへのお問い合わせ入力・確認画面の開発プレビューです。" }
+  },
+  "ui": {
+    "skip_link": "本文へ移動", "state_label": "サイトの状態", "utility_primary": "公開準備中｜会社・価格・営業情報は未確定です", "utility_secondary": "電話・LINEによる受付はまだ開始していません", "main_navigation": "メインナビゲーション", "footer_navigation": "フッターナビゲーション", "footer_pending": "会社・電話・住所・許認可等は正式情報提供後に掲載します。", "footer_preview": "© 2026 KUKA. Development preview.", "footer_indexing": "正式公開前のため検索エンジンへの登録を停止しています。", "mobile_fixed_navigation": "スマートフォン固定メニュー", "line_unavailable": "LINE\n未接続", "line_unavailable_aria": "LINEは未接続です", "access": "アクセス", "contact": "お問い合わせ", "language_navigation": "言語を選択", "translation_unavailable": "対応翻訳なし", "home": "ホーム",
+    "cta": { "eyebrow": "Contact", "title": "まずはお品物について\nお聞かせください。", "lead": "お問い合わせ画面は現在、保存・送信を行わない開発プレビューです。", "contact": "お問い合わせへ", "process": "お取引の流れ" },
+    "mobile": { "open": "メニューを開く", "close": "メニューを閉じる", "dialog": "メインメニュー", "navigation": "スマートフォンメニュー" },
+    "common": { "important": "重要", "fixture_article": "開発用記事", "back_to_news": "お知らせ一覧へ戻る", "tax_included": "税込表記", "change": "前日比" }
+  },
+  "home": {
+    "utility": { "text": "金・銀・プラチナ・パラジウムの買取専門店" },
+    "hero": {
+      "image": "images/brand/fv-background.jpeg",
+      "alt": "",
+      "eyebrow": { "text": "公表相場を参考に、丁寧に査定。", "desktop_lines": [] },
+      "title": { "text": "金・銀・プラチナ・パラジウムの買取なら、Kuka Precious Metals Japanへ", "desktop_lines": ["金・銀・プラチナ・", "パラジウムの買取なら、", "Kuka Precious Metals Japanへ"] },
+      "lead": { "text": "品位・重量・状態を確認し、適正な価格で買取いたします。", "desktop_lines": [] },
+      "assurances": [
+        { "icon": "gift", "title": "査定料・キャンセル料", "description": "無料" },
+        { "icon": "chart", "title": "価格を毎日更新", "description": "相場を公開" },
+        { "icon": "line", "title": "写真で事前相談", "description": "簡単・安心" },
+        { "icon": "payment", "title": "現金・振込に対応", "description": "", "dynamic_description": null }
+      ],
+      "actions": [
+        { "key": "contact", "label": "無料査定を申し込む", "description": "24時間受付・フォームで簡単" },
+        { "key": "line", "label": "LINEで事前相談する", "description": "写真を送るだけ・簡単相談" }
+      ],
+      "note": { "text": "※当社基準による。詳しくはお取引の流れページをご確認ください。", "desktop_lines": [] }
+    },
+    "prices": {
+      "eyebrow": "",
+      "title": { "text": "本日の買取参考価格", "desktop_lines": [] },
+      "lead": { "text": "公表相場を参考に、品位・重量・状態を確認して査定いたします。", "desktop_lines": ["公表相場を参考に、", "品位・重量・状態を確認して", "査定いたします。"] },
+      "link": "相場情報を詳しく見る",
+      "card_link": "詳細を見る",
+      "note": { "text": "※買取価格は相場・品位・重量・状態・お取引条件により変動します。最新の価格は相場情報ページをご確認ください。", "desktop_lines": [] }
+    },
+    "reasons": {
+      "eyebrow": "",
+      "title": { "text": "Kukaが選ばれる理由", "desktop_lines": [] },
+      "items": [
+        { "title": "価格の透明性", "description": { "text": "公表相場を参考に、価格を公開しています。", "desktop_lines": [] } },
+        { "title": "専門スタッフが査定", "description": { "text": "品位・重量・状態をしっかり確認。丁寧に査定いたします。", "desktop_lines": ["品位・重量・状態をしっかり確認。", "丁寧に査定いたします。"] } },
+        { "title": "安心できる店舗", "description": { "text": "明るく入りやすい店内で、落ち着いてご相談いただけます。", "desktop_lines": ["明るく入りやすい店内で、", "落ち着いてご相談いただけます。"] } },
+        { "title": "LINEで事前相談", "description": { "text": "写真を送るだけで、事前にご相談いただけます。", "desktop_lines": ["写真を送るだけで、", "事前にご相談いただけます。"] } },
+        { "title": "現金・振込に対応", "description": { "text": "現金または振込にて、即日お支払いに対応します。", "desktop_lines": [] } }
+      ]
+    },
+    "process": {
+      "eyebrow": "",
+      "title": { "text": "初めての方でも安心　買取の流れ", "desktop_lines": [] },
+      "steps": [
+        { "number": "01", "title": "ご来店・ご相談", "description": { "text": "LINE・お電話・フォームからご相談ください。", "desktop_lines": [] } },
+        { "number": "02", "title": "受付", "description": { "text": "お品物と必要書類を確認いたします。", "desktop_lines": [] } },
+        { "number": "03", "title": "査定", "description": { "text": "品位・重量・状態などを専門の機器で確認します。", "desktop_lines": [] } },
+        { "number": "04", "title": "金額のご提示", "description": { "text": "査定結果をご説明し、金額をご提示します。", "desktop_lines": [] } },
+        { "number": "05", "title": "本人確認", "description": { "text": "法令に基づき、本人確認を行わせていただきます。", "desktop_lines": [] } },
+        { "number": "06", "title": "お支払い", "description": { "text": "ご納得いただければ、その場でお支払いします。", "desktop_lines": [] } }
+      ],
+      "link": "詳しい流れを見る"
+    },
+    "items": {
+      "eyebrow": "",
+      "title": { "text": "買取できるもの", "desktop_lines": [] },
+      "lead": { "text": "貴金属・地金・コイン・スクラップなど幅広くお取り扱いしています。", "desktop_lines": ["貴金属・地金・コイン・スクラップなど", "幅広くお取り扱いしています。"] },
+      "link": "買取品目をすべて見る",
+      "cards": [
+        { "item_id": "gold", "label": "地金・インゴット" },
+        { "item_id": "coins", "label": "コイン・メダル" },
+        { "item_id": "jewelry", "label": "ジュエリー・アクセサリー" },
+        { "item_id": "tableware", "label": "貴金属製品" },
+        { "item_id": "scrap", "label": "スクラップ・工業用素材" }
+      ]
+    },
+    "store": {
+      "eyebrow": "",
+      "title": { "text": "店舗のご案内", "desktop_lines": [] },
+      "lead": { "text": "明るく清潔な店内で、安心してご相談いただけます。", "desktop_lines": ["明るく清潔な店内で、", "安心してご相談いただけます。"] },
+      "link": "アクセス・地図を見る"
+    },
+    "news": { "eyebrow": "", "title": { "text": "お知らせ", "desktop_lines": [] }, "link": "一覧を見る" },
+    "final_cta": {
+      "eyebrow": "",
+      "title": { "text": "まずはお気軽にご相談ください。", "desktop_lines": [] },
+      "lead": { "text": "写真を送るだけで、査定の目安をご案内いたします。", "desktop_lines": [] },
+      "actions": [
+        { "key": "line", "label": "LINEで事前相談する", "description": "写真を送るだけ・簡単相談" },
+        { "key": "contact", "label": "無料査定を申し込む", "description": "24時間受付・フォームで簡単" }
+      ]
+    },
+    "footer": {
+      "description": { "text": "金・銀・プラチナ・パラジウムの買取専門店。公表相場を参考に、適正な価格で買取いたします。", "desktop_lines": [] },
+      "groups": [
+        { "page_key": "prices", "label": "相場情報", "links": [ { "label": "本日の買取参考価格", "enabled": true }, { "label": "相場の詳細", "enabled": true }, { "label": "価格表PDF", "enabled": false } ] },
+        { "page_key": "items", "label": "買取品目", "links": [ { "label": "インゴット・地金", "enabled": true }, { "label": "コイン・メダル", "enabled": true }, { "label": "アクセサリー", "enabled": true }, { "label": "スクラップ・素材", "enabled": true }, { "label": "買取品目一覧", "enabled": true } ] },
+        { "page_key": "process", "label": "お取引の流れ", "links": [ { "label": "はじめての方へ", "enabled": true }, { "label": "査定・買取の流れ", "enabled": true }, { "label": "必要書類", "enabled": true }, { "label": "よくあるご質問", "enabled": true } ] },
+        { "page_key": "company", "label": "会社情報", "links": [ { "label": "会社概要", "enabled": true }, { "label": "アクセス・地図", "enabled": true }, { "label": "営業時間", "enabled": true }, { "label": "古物商許可", "enabled": false } ] },
+        { "page_key": "news", "label": "お知らせ", "links": [ { "label": "お知らせ一覧", "enabled": true }, { "label": "営業カレンダー", "enabled": true } ] },
+        { "page_key": "contact", "label": "お問い合わせ", "links": [ { "label": "お問い合わせ一覧", "enabled": true }, { "label": "お問い合わせフォーム", "enabled": true } ] }
+      ],
+      "legal_links": ["各種書類・規約", "プライバシーポリシー", "取引規約", "サイトマップ"],
+      "contact_label": "お問い合わせ",
+      "preview_note": "※掲載の価格はイメージです。"
+    }
+  }
+}

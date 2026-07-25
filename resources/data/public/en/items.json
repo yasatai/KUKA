@@ -1,0 +1,27 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-items.png", "alt": "Development image of metal items and jewellery", "eyebrow": "Purchase categories", "title": "Items", "lead": "We review each precious-metal item by purity, weight and condition. Translation review is pending." },
+    "breadcrumb": "Items", "assurance_label": "Purchase service information", "categories_eyebrow": "Categories", "categories_title": "Precious metals we review", "categories_lead": "Bullion, coins, jewellery, products, scrap and industrial materials are checked individually.", "detail_label": "View details", "unavailable_eyebrow": "Unavailable", "unavailable_title": "Items we cannot accept", "review_eyebrow": "Needs review", "review_title": "Advance confirmation required", "faq_eyebrow": "FAQ", "faq_title": "Frequently asked questions about items", "bottom_title": "Designed for a careful consultation", "cta": { "title": "Not sure whether an item can be reviewed?", "lead": "Use the preview contact screen to share the item details.", "line": "LINE consultation", "contact": "Request an appraisal", "pending": "Telephone and reception hours await approved official information." }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "Appraisal and cancellation", "description": "No consultation fee" }, { "mark": "UP", "title": "Price information", "description": "Development data shown" }, { "mark": "DAY", "title": "Payment method", "description": "Terms under review" }, { "mark": "MIX", "title": "Small mixed items", "description": "Reviewed together" }
+  ],
+  "categories": [
+    { "id": "gold", "name": "Bullion and ingots", "mark": "Au", "description": "Gold, silver, platinum and palladium bullion and ingots.", "note": "Brand and hallmark reviewed", "image": "images/pages/hero-prices.png", "alt": "Development image of bullion" },
+    { "id": "coins", "name": "Gold, silver and commemorative coins", "mark": "Co", "description": "Gold coins, silver coins, commemoratives and overseas coins.", "note": "Single items welcome", "image": "images/pages/hero-items.png", "alt": "Development image of coins and metals" },
+    { "id": "jewelry", "name": "Jewellery and accessories", "mark": "Jw", "description": "Broken necklaces, single earrings and rings missing stones can be discussed.", "note": "Condition reviewed individually", "image": "images/brand/fv-background.jpeg", "alt": "Development image of a decorative metal object" },
+    { "id": "silver", "name": "Silver products", "mark": "Ag", "description": "Silverware, cutlery, ornaments and other silver products.", "note": "Tarnish and damage accepted for review", "image": "images/pages/hero-items.png", "alt": "Development image representing silver products" },
+    { "id": "platinum", "name": "Platinum products", "mark": "Pt", "description": "Platinum rings, necklaces, bullion and industrial material.", "note": "Pt hallmarks reviewed", "image": "images/pages/hero-process.png", "alt": "Development image of appraisal tools and metals" },
+    { "id": "palladium", "name": "Palladium products", "mark": "Pd", "description": "Palladium rings, industrial materials and alloy products.", "note": "Pd hallmarks reviewed", "image": "images/pages/hero-top.png", "alt": "Development image of precious-metal products" },
+    { "id": "scrap", "name": "Gold, silver and platinum scrap", "mark": "Sc", "description": "Offcuts, damaged items, parts and broken chains.", "note": "Unknown purity can be discussed", "image": "images/pages/hero-process.png", "alt": "Development image of appraisal items" },
+    { "id": "tableware", "name": "Industrial materials", "mark": "In", "description": "Wire, sheet and components containing precious metals; business enquiries welcome.", "note": "Large quantities require advance consultation", "image": "images/pages/hero-company.png", "alt": "Development image representing industrial material" }
+  ],
+  "unavailable": ["Items whose ownership cannot be confirmed", "Items restricted by law", "Items that cannot be checked or stored safely", "Some items whose authenticity or material cannot be confirmed"],
+  "needsReview": ["Items without hallmarks", "Items with accessories or mixed materials", "Large or unusually shaped items", "Corporate or high-volume visits"],
+  "faq": [
+    { "question": "Can an item be reviewed without a hallmark?", "answer": "Some materials can still be checked. Confirmation may take longer depending on condition." }, { "question": "Can damaged jewellery be discussed?", "answer": "Broken chains and single earrings may be reviewed when the material can be confirmed." }, { "question": "Do gemstones affect the appraisal?", "answer": "The approach varies by item. Official appraisal rules will be connected later." }, { "question": "Can overseas or branded products be discussed?", "answer": "Material and condition are checked individually. Brand-value handling awaits final operating rules." }, { "question": "Can every condition be reviewed?", "answer": "Items that can be handled safely may be discussed; legal or storage restrictions can apply." }
+  ],
+  "bottomAssurances": [
+    { "mark": "¥0", "title": "Consultation fees", "description": "No fee for this preview consultation" }, { "mark": "DAY", "title": "Payment terms", "description": "Official operating details pending" }, { "mark": "INFO", "title": "Clear explanation", "description": "Review details are explained carefully" }, { "mark": "LOCK", "title": "Privacy considered", "description": "Personal data is handled appropriately" }
+  ]
+}

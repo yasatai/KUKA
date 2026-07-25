@@ -1,0 +1,89 @@
+{
+  "disabled_label": "正式情報またはリンクの提供後に有効化します",
+  "brand": {
+    "description": "大切なお品物を、わかりやすく丁寧に査定する貴金属買取サービスの公開サイトです。",
+    "specialty": "金・銀・プラチナ・パラジウムの買取専門サイト"
+  },
+  "groups": [
+    {
+      "key": "prices",
+      "title": "相場情報",
+      "page_key": "prices",
+      "links": [
+        { "label": "本日の買取参考価格", "page_key": "prices", "enabled": true },
+        { "label": "相場情報", "page_key": "prices", "enabled": true },
+        { "label": "金・銀・プラチナ・パラジウムの価格", "page_key": "prices", "enabled": true },
+        { "label": "印刷／PDF案内", "page_key": "prices", "enabled": true }
+      ]
+    },
+    {
+      "key": "items",
+      "title": "買取品目",
+      "page_key": "items",
+      "links": [
+        { "label": "地金・インゴット", "page_key": "items", "enabled": true },
+        { "label": "コイン・メダル", "page_key": "items", "enabled": true },
+        { "label": "ジュエリー・アクセサリー", "page_key": "items", "enabled": true },
+        { "label": "銀製品", "page_key": "items", "enabled": true },
+        { "label": "プラチナ製品", "page_key": "items", "enabled": true },
+        { "label": "パラジウム製品", "page_key": "items", "enabled": true },
+        { "label": "スクラップ・工業用素材", "page_key": "items", "enabled": true }
+      ]
+    },
+    {
+      "key": "process",
+      "title": "お取引の流れ",
+      "page_key": "process",
+      "links": [
+        { "label": "はじめての方へ", "page_key": "process", "enabled": true },
+        { "label": "ご来店・受付", "page_key": "process", "enabled": true },
+        { "label": "査定・金額のご提示", "page_key": "process", "enabled": true },
+        { "label": "本人確認", "page_key": "process", "enabled": true },
+        { "label": "ご成約・お支払い", "page_key": "process", "enabled": true },
+        { "label": "必要書類", "page_key": "process", "enabled": true }
+      ]
+    },
+    {
+      "key": "company",
+      "title": "会社情報",
+      "page_key": "company",
+      "links": [
+        { "label": "会社概要", "page_key": "company", "enabled": true },
+        { "label": "アクセス・地図", "page_key": "company", "enabled": true },
+        { "label": "営業時間", "page_key": "company", "enabled": true },
+        { "label": "許可情報", "page_key": "company", "enabled": true },
+        { "label": "運営者情報", "page_key": "company", "enabled": true }
+      ]
+    },
+    {
+      "key": "news",
+      "title": "お知らせ",
+      "page_key": "news",
+      "links": [
+        { "label": "お知らせ一覧", "page_key": "news", "enabled": true },
+        { "label": "営業カレンダー", "page_key": "news", "enabled": true },
+        { "label": "重要なお知らせ", "page_key": "news", "enabled": true }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "お問い合わせ",
+    "lead": "正式な連絡先は提供後に有効化します。フォームは開発プレビューです。",
+    "links": [
+      { "label": "お問い合わせフォーム", "page_key": "contact", "enabled": true },
+      { "label": "LINE相談（未接続）", "page_key": null, "enabled": false },
+      { "label": "電話相談（未登録）", "page_key": null, "enabled": false },
+      { "label": "店頭相談（正式情報待ち）", "page_key": null, "enabled": false }
+    ]
+  },
+  "legal": {
+    "title": "各種書類・規約",
+    "links": [
+      { "label": "プライバシーポリシー", "page_key": null, "enabled": false },
+      { "label": "取引規約", "page_key": null, "enabled": false },
+      { "label": "サイトマップ", "page_key": null, "enabled": false }
+    ],
+    "copyright": "© 2026 KUKA. Development preview.",
+    "release_note": "正式公開前のため検索エンジンへの登録を停止しています。"
+  }
+}

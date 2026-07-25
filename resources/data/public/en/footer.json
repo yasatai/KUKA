@@ -1,0 +1,89 @@
+{
+  "disabled_label": "Available after official details or links are supplied",
+  "brand": {
+    "description": "A preview of a precious-metals purchase service designed to explain each appraisal clearly and carefully.",
+    "specialty": "Specialist site for gold, silver, platinum and palladium purchases"
+  },
+  "groups": [
+    {
+      "key": "prices",
+      "title": "Market Prices",
+      "page_key": "prices",
+      "links": [
+        { "label": "Today's indicative purchase prices", "page_key": "prices", "enabled": true },
+        { "label": "Market price information", "page_key": "prices", "enabled": true },
+        { "label": "Gold, silver, platinum and palladium prices", "page_key": "prices", "enabled": true },
+        { "label": "Print / PDF information", "page_key": "prices", "enabled": true }
+      ]
+    },
+    {
+      "key": "items",
+      "title": "Items",
+      "page_key": "items",
+      "links": [
+        { "label": "Bullion and ingots", "page_key": "items", "enabled": true },
+        { "label": "Coins and medals", "page_key": "items", "enabled": true },
+        { "label": "Jewellery and accessories", "page_key": "items", "enabled": true },
+        { "label": "Silver products", "page_key": "items", "enabled": true },
+        { "label": "Platinum products", "page_key": "items", "enabled": true },
+        { "label": "Palladium products", "page_key": "items", "enabled": true },
+        { "label": "Scrap and industrial materials", "page_key": "items", "enabled": true }
+      ]
+    },
+    {
+      "key": "process",
+      "title": "Purchase Process",
+      "page_key": "process",
+      "links": [
+        { "label": "For first-time customers", "page_key": "process", "enabled": true },
+        { "label": "Visit and reception", "page_key": "process", "enabled": true },
+        { "label": "Appraisal and offer", "page_key": "process", "enabled": true },
+        { "label": "Identity verification", "page_key": "process", "enabled": true },
+        { "label": "Agreement and payment", "page_key": "process", "enabled": true },
+        { "label": "Required documents", "page_key": "process", "enabled": true }
+      ]
+    },
+    {
+      "key": "company",
+      "title": "Company",
+      "page_key": "company",
+      "links": [
+        { "label": "Company profile", "page_key": "company", "enabled": true },
+        { "label": "Access and map", "page_key": "company", "enabled": true },
+        { "label": "Business hours", "page_key": "company", "enabled": true },
+        { "label": "Licence information", "page_key": "company", "enabled": true },
+        { "label": "Operator information", "page_key": "company", "enabled": true }
+      ]
+    },
+    {
+      "key": "news",
+      "title": "News",
+      "page_key": "news",
+      "links": [
+        { "label": "News list", "page_key": "news", "enabled": true },
+        { "label": "Business calendar", "page_key": "news", "enabled": true },
+        { "label": "Important notices", "page_key": "news", "enabled": true }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Contact",
+    "lead": "Official contact details will be enabled after approval. The form is a development preview.",
+    "links": [
+      { "label": "Contact form", "page_key": "contact", "enabled": true },
+      { "label": "LINE consultation (offline)", "page_key": null, "enabled": false },
+      { "label": "Telephone consultation (not registered)", "page_key": null, "enabled": false },
+      { "label": "In-store consultation (details pending)", "page_key": null, "enabled": false }
+    ]
+  },
+  "legal": {
+    "title": "Documents and Terms",
+    "links": [
+      { "label": "Privacy Policy", "page_key": null, "enabled": false },
+      { "label": "Transaction Terms", "page_key": null, "enabled": false },
+      { "label": "Sitemap", "page_key": null, "enabled": false }
+    ],
+    "copyright": "© 2026 KUKA. Development preview.",
+    "release_note": "Search indexing is disabled until official release."
+  }
+}

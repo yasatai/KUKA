@@ -1,0 +1,22 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-process.png", "alt": "Development image of an appraisal tray and tools", "eyebrow": "How it works", "title": "Purchase Process", "lead": "A review-stage guide from consultation to payment. Translation and operating terms are not yet approved." },
+    "breadcrumb": "Purchase Process", "assurance_label": "Transaction information", "steps_eyebrow": "Six steps", "steps_title": "Six steps from appraisal to payment", "documents_eyebrow": "Documents", "documents_title": "What to prepare", "documents_lead": "Accepted identity documents and operating conditions will be published after approval.", "notes_eyebrow": "Before visiting", "notes_title": "Important information", "unavailable_title": "Items we cannot accept", "unavailable_note": "A transaction may be declined when any restriction applies.", "point": "POINT", "cta": { "image": "images/pages/hero-items.png", "title": "Please contact us before visiting.", "lead": "Share a photo or description through the preview contact screen.", "line": "LINE consultation", "contact": "Request an appraisal" }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "Appraisal fees", "description": "No consultation fee" }, { "mark": "DAY", "title": "Payment", "description": "Terms under review" }, { "mark": "ID", "title": "Identity check", "description": "Legal review pending" }, { "mark": "LOCK", "title": "Privacy", "description": "Handled appropriately" }, { "mark": "PRO", "title": "Specialist support", "description": "Careful assistance" }
+  ],
+  "steps": [
+    { "number": "01", "mark": "SHOP", "title": "Visit or consultation", "description": "Discuss the item and your request through the preview contact screen before visiting.", "point": "Official reception methods await approval.", "image": "images/pages/hero-company.png", "alt": "Development image representing a consultation space" },
+    { "number": "02", "mark": "FORM", "title": "Reception and custody", "description": "The item and any identity document required under final rules are reviewed.", "point": "Each item is handled carefully.", "image": "images/pages/hero-contact.png", "alt": "Development image representing reception documents" },
+    { "number": "03", "mark": "LENS", "title": "Appraisal", "description": "Weight, purity and condition are checked and the appraisal details are prepared.", "point": "Official criteria will be connected later.", "image": "images/pages/hero-process.png", "alt": "Development image of appraisal tools and metals" },
+    { "number": "04", "mark": "CALC", "title": "Appraisal amount", "description": "The approach and amount are explained. Displayed prices remain development data.", "point": "The result is explained clearly.", "image": "images/pages/hero-prices.png", "alt": "Development image representing a price review" },
+    { "number": "05", "mark": "ID", "title": "Identity check", "description": "Identity is checked under approved law and operations; accepted documents are pending.", "point": "Legal and operating review pending.", "image": "images/pages/hero-contact.png", "alt": "Abstract development image representing identity review" },
+    { "number": "06", "mark": "PAY", "title": "Payment", "description": "Payment by an approved method occurs only after the appraisal is accepted.", "point": "Payment terms await official information.", "image": "images/pages/hero-items.png", "alt": "Development image representing transaction completion" }
+  ],
+  "documents": [
+    { "title": "Identity document", "description": "Accepted documents will be published after legal and operating review." }, { "title": "Business transactions", "description": "Additional company and representative documents may be required." }, { "title": "Transactions involving minors", "description": "Eligibility will be published after the official policy is approved." }
+  ],
+  "notes": ["You may decline the transaction if you do not accept the appraisal.", "Transaction and payment terms remain under legal review.", "Safety or material checks may require additional time.", "Some items may require extended confirmation."],
+  "unavailable": ["Items whose ownership cannot be confirmed", "Items restricted by law", "Items that cannot be handled safely", "Some items whose authenticity or material cannot be confirmed"]
+}

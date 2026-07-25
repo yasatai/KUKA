@@ -1,0 +1,76 @@
+{
+  "locale": { "label": "English", "short_label": "EN", "review_label": "Translation under review" },
+  "meta": { "fixture": true, "notice": "This page uses development data and will be replaced after official information is approved.", "review_banner": "Translation under review: this English page is a preview and is not approved for publication." },
+  "publication": { "translation_status": "review", "pages": { "home": { "page_status": "preview", "is_indexable": false }, "prices": { "page_status": "preview", "is_indexable": false }, "items": { "page_status": "preview", "is_indexable": false }, "process": { "page_status": "preview", "is_indexable": false }, "company": { "page_status": "preview", "is_indexable": false }, "news": { "page_status": "preview", "is_indexable": false }, "news_show": { "page_status": "preview", "is_indexable": false }, "contact": { "page_status": "preview", "is_indexable": false } } },
+  "brand": { "name": "KUKA", "tagline": "Precious metals purchase service", "description": "A preview of a precious-metals purchase service designed to explain each appraisal clearly and carefully." },
+  "navigation": [ { "page_key": "home", "label": "Home" }, { "page_key": "prices", "label": "Market Prices" }, { "page_key": "items", "label": "Items" }, { "page_key": "process", "label": "Process" }, { "page_key": "company", "label": "Company" }, { "page_key": "news", "label": "News" }, { "page_key": "contact", "label": "Contact" } ],
+  "assurances": [ { "title": "No appraisal fee", "description": "No appraisal fee is planned." }, { "title": "Clear explanations", "description": "We explain the appraisal approach in plain language." }, { "title": "Privacy minded", "description": "We aim to provide a calm consultation environment." } ],
+  "seo": { "home": { "title": "KUKA | Precious Metals Purchase Service", "description": "Translation-review preview for KUKA information about gold, silver, platinum and palladium purchases." }, "prices": { "title": "Market Prices | KUKA", "description": "Translation-review preview of development reference prices and purity tables." }, "items": { "title": "Items We Plan to Purchase | KUKA", "description": "Translation-review preview of planned precious-metal and jewellery categories." }, "process": { "title": "Purchase Process | KUKA", "description": "Translation-review preview of the consultation, appraisal and payment flow." }, "company": { "title": "Company Information | KUKA", "description": "Translation-review preview. Official company and store details have not been supplied." }, "news": { "title": "News | KUKA", "description": "Translation-review preview of development news and business information." }, "contact": { "title": "Contact | KUKA", "description": "Translation-review preview of the contact form UI; nothing is submitted." } },
+  "ui": { "skip_link": "Skip to main content", "state_label": "Site status", "utility_primary": "Pre-release preview | Company, price and business details are not final", "utility_secondary": "Telephone and LINE reception have not started", "main_navigation": "Main navigation", "footer_navigation": "Footer navigation", "footer_pending": "Official company, telephone, address and licence details will be shown only after approval.", "footer_preview": "© 2026 KUKA. Development preview.", "footer_indexing": "Search indexing is disabled until official release.", "mobile_fixed_navigation": "Mobile fixed navigation", "line_unavailable": "LINE\nOffline", "line_unavailable_aria": "LINE is not connected", "access": "Access", "contact": "Contact", "language_navigation": "Choose language", "translation_unavailable": "Translation unavailable", "home": "Home", "cta": { "eyebrow": "Contact", "title": "Tell us about\nyour item.", "lead": "The contact flow is a development preview and does not save or submit information.", "contact": "Go to contact", "process": "View the process" }, "mobile": { "open": "Open menu", "close": "Close menu", "dialog": "Main menu", "navigation": "Mobile navigation" }, "common": { "important": "Important", "fixture_article": "Development article", "back_to_news": "Back to news", "tax_included": "tax included", "change": "Daily change" } },
+  "home": {
+    "utility": { "text": "Pre-release preview | Company, price and business details are not final" },
+    "hero": {
+      "image": "images/brand/fv-background.jpeg", "alt": "",
+      "eyebrow": { "text": "Precious metals, explained clearly", "desktop_lines": [] },
+      "title": { "text": "Understand the value. Explain it honestly.", "desktop_lines": [] },
+      "lead": { "text": "Gold, silver, platinum and palladium. We aim to treat every item carefully and explain how an appraisal is considered.", "desktop_lines": [] },
+      "assurances": [
+        { "icon": "gift", "title": "No appraisal fee", "description": "No appraisal fee is planned." },
+        { "icon": "chart", "title": "Clear explanations", "description": "We explain the appraisal approach in plain language." },
+        { "icon": "line", "title": "Privacy minded", "description": "We aim to provide a calm consultation environment." },
+        { "icon": "payment", "title": "Updated at", "description": "", "dynamic_description": "prices.meta.updatedAt" }
+      ],
+      "actions": [
+        { "key": "prices", "label": "View development prices", "description": "" },
+        { "key": "items", "label": "View items", "description": "" }
+      ],
+      "note": { "text": "Values are UI-only sample data, not actual purchase prices or calculation results.", "desktop_lines": [] }
+    },
+    "prices": {
+      "eyebrow": "Market reference", "title": { "text": "Today's development reference prices", "desktop_lines": [] },
+      "lead": { "text": "Values are UI-only sample data, not actual purchase prices or calculation results.", "desktop_lines": [] },
+      "link": "View development purity tables", "card_link": "View development purity tables",
+      "note": { "text": "Values are UI-only sample data, not actual purchase prices or calculation results.", "desktop_lines": [] }
+    },
+    "reasons": {
+      "eyebrow": "Why KUKA", "title": { "text": "Designed for a comfortable consultation", "desktop_lines": [] },
+      "items": [
+        { "title": "Careful checks", "description": { "text": "Review each item and explain the decision process.", "desktop_lines": [] } },
+        { "title": "Clear fees", "description": { "text": "Explain any relevant fees before a transaction.", "desktop_lines": [] } },
+        { "title": "Calm environment", "description": { "text": "Provide a private space with time to consider.", "desktop_lines": [] } },
+        { "title": "Price status", "description": { "text": "Separate development values from approved prices.", "desktop_lines": [] } },
+        { "title": "Responsible data", "description": { "text": "Build operations around appropriate information handling.", "desktop_lines": [] } }
+      ]
+    },
+    "process": {
+      "eyebrow": "Simple process", "title": { "text": "Six steps", "desktop_lines": [] },
+      "steps": [
+        { "number": "01", "title": "Consultation", "description": { "text": "Discuss your item and request in store or through the preview contact screen.", "desktop_lines": [] } },
+        { "number": "02", "title": "Visit and reception", "description": { "text": "Bring the item and any identity document required under the final operating rules.", "desktop_lines": [] } },
+        { "number": "03", "title": "Measure and inspect", "description": { "text": "Weight, purity and condition are checked for each item.", "desktop_lines": [] } },
+        { "number": "04", "title": "Explanation", "description": { "text": "The appraisal approach and amount are explained clearly.", "desktop_lines": [] } },
+        { "number": "05", "title": "Your decision", "description": { "text": "Proceed only after reviewing and accepting the explanation.", "desktop_lines": [] } },
+        { "number": "06", "title": "Procedure and payment", "description": { "text": "Required details are checked before payment by an approved method.", "desktop_lines": [] } }
+      ],
+      "link": "View documents and notes"
+    },
+    "items": {
+      "eyebrow": "Items", "title": { "text": "Main item categories", "desktop_lines": [] },
+      "lead": { "text": "Items are checked individually rather than judged by condition or hallmarks alone.", "desktop_lines": [] },
+      "link": "View all categories and notes",
+      "cards": [
+        { "item_id": "gold", "label": "Gold and bullion" }, { "item_id": "coins", "label": "Coins and commemoratives" },
+        { "item_id": "jewelry", "label": "Jewellery" }, { "item_id": "tableware", "label": "Gold and silver objects" },
+        { "item_id": "scrap", "label": "Damaged items and scrap" }
+      ]
+    },
+    "store": { "eyebrow": "Store", "title": { "text": "Store and company", "desktop_lines": [] }, "lead": { "text": "Official company and store information has not been supplied. Translation review pending.", "desktop_lines": [] }, "link": "View company information" },
+    "news": { "eyebrow": "Latest news", "title": { "text": "Latest notices", "desktop_lines": [] }, "link": "View all news" },
+    "final_cta": {
+      "eyebrow": "Contact", "title": { "text": "Tell us about your item.", "desktop_lines": [] },
+      "lead": { "text": "The contact flow is a development preview and does not save or submit information.", "desktop_lines": [] },
+      "actions": [ { "key": "contact", "label": "Go to contact", "description": "" }, { "key": "process", "label": "View the process", "description": "" } ]
+    },
+    "footer": { "description": { "text": "A preview of a precious-metals purchase service designed to explain each appraisal clearly and carefully.", "desktop_lines": [] }, "legal_links": [] }
+  }
+}

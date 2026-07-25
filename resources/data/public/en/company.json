@@ -1,0 +1,21 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-company.png", "alt": "Development interior image representing a consultation counter", "eyebrow": "Company", "title": "Company Information", "lead": "We aim to provide transparent guidance and a reassuring consultation environment for precious-metal transactions. Translation review pending." },
+    "breadcrumb": "Company Information", "assurance_label": "Store and transaction assurances", "profile_title": "Company profile", "access_title": "Access", "store_label": "Store", "address_label": "Address", "access_label": "Access", "map_aria": "Map will be shown after official access information is supplied", "map_title": "MAP / ACCESS", "map_text": "Pending approved official information", "features_title": "Store information", "licenses_title": "Licences and affiliations", "licenses_lead": "No licence number, certificate or affiliation is inferred. Publication awaits approved official data and translation review.",
+    "cta": { "image": "images/pages/hero-prices.png", "title": "Contact us when you are considering selling precious metals.", "lead": "Share photos or basic information about the item. Translation review pending.", "line": "LINE consultation", "contact": "Request an appraisal", "pending_label": "Telephone enquiries", "pending_value": "Pending official information" }
+  },
+  "meta": { "fixture": true, "notice": "Official company and store information has not been supplied. Translation review pending." },
+  "assurances": [
+    { "mark": "CLEAR", "title": "Transparent guidance", "description": "Clear explanations" }, { "mark": "SHOP", "title": "Physical store", "description": "Access pending" }, { "mark": "PAY", "title": "Payment terms", "description": "Under review" }, { "mark": "LOCK", "title": "Privacy", "description": "Responsible handling" }, { "mark": "PRO", "title": "Specialist support", "description": "Careful service" }
+  ],
+  "profile": [
+    { "label": "Company name", "value": "Pending approved official information" }, { "label": "Representative", "value": "Pending approved official information" }, { "label": "Address", "value": "Pending approved official information" }, { "label": "Telephone", "value": "Pending approved official information" }, { "label": "Opening hours", "value": "Pending approved official information" }, { "label": "Business", "value": "Precious-metal purchasing (pre-release preview)" }
+  ],
+  "store": { "name": "Pending approved official information", "address": "Pending approved official information", "access": "Station and parking information pending", "map": null, "image": "images/pages/hero-company.png", "alt": "Development interior image awaiting replacement with an official store photograph" },
+  "features": [
+    { "title": "Bright, clean interior", "description": "A calm consultation environment is planned.", "image": "images/pages/hero-company.png", "alt": "Development consultation-space image" }, { "title": "Specialist appraisal", "description": "Operations are planned for careful item-by-item review.", "image": "images/pages/hero-process.png", "alt": "Development appraisal-tool image" }, { "title": "Private consultation", "description": "A privacy-conscious consultation setting is planned.", "image": "images/pages/hero-contact.png", "alt": "Development consultation-seat image" }, { "title": "Measurement equipment", "description": "Appropriate equipment is planned for careful review.", "image": "images/pages/hero-prices.png", "alt": "Development equipment image" }, { "title": "Security", "description": "Safe transaction operations are being prepared.", "image": "images/pages/hero-items.png", "alt": "Development security image" }
+  ],
+  "licenses": [
+    { "mark": "PERMIT", "label": "Second-hand dealer licence", "value": "Pending approved official licence information" }, { "mark": "GROUP", "label": "Affiliations", "value": "Pending approved official affiliation information" }, { "mark": "LAW", "label": "Compliance", "value": "Publish after legal, operational and translation review" }
+  ]
+}

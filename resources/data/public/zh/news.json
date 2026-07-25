@@ -1,0 +1,26 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-news.png", "alt": "素色笔记本和笔的开发用图片", "eyebrow": "News & updates", "title": "通知", "lead": "刊登营业日、行情及公开网站等开发用通知。本页翻译仍在审核中。" },
+    "breadcrumb": "通知", "notice_title": "开发用通知", "notice_suffix": "正式营业日和休息日尚未刊登。", "list_title": "通知列表", "filters_label": "通知分类", "result_empty": "没有符合条件的开发用文章。", "pagination": "分页", "page_label": "第{page}页", "important": "重要", "calendar_title": "营业日历", "business_pending": "营业信息未确定", "calendar_aria": "{month}开发用日历", "market_title": "行情变动通知", "market_text": "显示价格为开发用数据，正式信息将在后台批准后更新。", "market_link": "查看行情信息", "related_title": "相关页面", "detail_eyebrow": "News detail", "development_article": "开发用文章", "back": "返回通知列表", "all_category": "全部",
+    "cta": { "image": "images/pages/hero-news.png", "title": "如有疑问，欢迎咨询。", "lead": "联系界面为不保存、不发送数据的开发预览。", "line": "通过LINE预先咨询", "contact": "申请免费评估" }
+  },
+  "meta": { "fixture": true, "notice": "通知为翻译审核中的开发用数据。" },
+  "categories": [
+    { "code": "important", "label": "重要通知", "mark": "INFO" }, { "code": "business", "label": "营业日・休息日", "mark": "CAL" }, { "code": "market", "label": "价格相关通知", "mark": "CHART" }, { "code": "documents", "label": "文件・手续", "mark": "DOC" }, { "code": "service", "label": "系统・服务", "mark": "TOOL" }, { "code": "other", "label": "其他通知", "mark": "ETC" }
+  ],
+  "items": [
+    { "article_key": "site-preview", "slug": "gongkai-wangzhan-yulan", "page_status": "preview", "is_indexable": false, "date": "2026-07-22", "category_code": "important", "category": "通知", "important": true, "title": "关于公开网站开发预览", "excerpt": "当前内容为正式公开前的开发预览。", "body": ["正在验证KUKA公开网站界面。","价格、公司及营业信息仅在正式批准后替换。"] },
+    { "article_key": "price-fixture", "slug": "hangqing-shuju-shuoming", "page_status": "preview", "is_indexable": false, "date": "2026-07-18", "category_code": "market", "category": "行情信息", "important": true, "title": "关于行情页面数值", "excerpt": "所有数值均为UI确认用示例。", "body": ["当前行情信息为前端开发用数据。","正式计算、外部价格及发布历史将在后续实现。"] },
+    { "article_key": "hours-pending", "slug": "yingye-xinxi-daiding", "page_status": "preview", "is_indexable": false, "date": "2026-07-15", "category_code": "business", "category": "营业信息", "important": false, "title": "营业信息将在确认后刊登", "excerpt": "营业时间、休息日及地址正在准备。", "body": ["营业信息正式确认后再刊登。","开发页面不会刊登虚构电话或地址。"] },
+    { "article_key": "contact-preview", "slug": "lianxi-jiemian-yulan", "page_status": "preview", "is_indexable": false, "date": "2026-07-10", "category_code": "service", "category": "系统・服务", "important": false, "title": "联系界面开发预览", "excerpt": "仅可确认输入、确认和完成界面。", "body": ["输入值仅保留在React内存。","不会保存至数据库、发送邮件或保存附件。"] },
+    { "article_key": "asset-replacement", "slug": "zhengshi-sucai-daiding", "page_status": "preview", "is_indexable": false, "date": "2026-07-05", "category_code": "other", "category": "其他通知", "important": false, "title": "计划替换正式素材", "excerpt": "门店照片及公司信息将在提供后替换。", "body": ["当前图片为可替换开发素材。","未伪造正式门店、人物或许可证。"] },
+    { "article_key": "accessibility-review", "slug": "wuzhangai-shenhe", "page_status": "preview", "is_indexable": false, "date": "2026-06-28", "category_code": "service", "category": "系统・服务", "important": false, "title": "正在进行无障碍验证", "excerpt": "正在确认键盘操作及语义结构。", "body": ["公开前验证主要操作的键盘支持。","支持减少动态效果的偏好设置。"] },
+    { "article_key": "document-guidance", "slug": "wenjian-zhinan-shenhe", "page_status": "preview", "is_indexable": false, "date": "2026-06-20", "category_code": "documents", "category": "文件・手续", "important": false, "title": "关于必要文件的刊登方针", "excerpt": "本人确认文件将在法务审核后刊登。", "body": ["不会把参考图中的条件当作正式条件刊登。","批准后的要求将在法务及翻译审核后刊登。"] },
+    { "article_key": "security-guidance", "slug": "anquan-tixing-shenhe", "page_status": "preview", "is_indexable": false, "date": "2026-06-15", "category_code": "important", "category": "重要通知", "important": true, "title": "请注意非正式通知", "excerpt": "正式联系方式公开前的安全说明。", "body": ["未刊登未经批准的电话号码或外部网址。","正式联系方式将在运营确定后公布。"] },
+    { "article_key": "system-maintenance", "slug": "xitong-yanzheng", "page_status": "preview", "is_indexable": false, "date": "2026-06-10", "category_code": "service", "category": "系统・服务", "important": false, "title": "公开界面验证作业", "excerpt": "正在验证多语言和响应式显示。", "body": ["正在确认公开画面的显示和操作。","保存及发送功能尚未连接。"] },
+    { "article_key": "legal-review", "slug": "fawu-wenan-shenhe", "page_status": "preview", "is_indexable": false, "date": "2026-06-05", "category_code": "documents", "category": "文件・手续", "important": false, "title": "法务文案审核状态", "excerpt": "本人确认及付款等文案尚未批准。", "body": ["不会将未批准的法务及运营条件作为正式信息。","批准后将替换为正式翻译。"] },
+    { "article_key": "market-display-update", "slug": "hangqing-xianshi-shenhe", "page_status": "preview", "is_indexable": false, "date": "2026-06-01", "category_code": "market", "category": "价格相关通知", "important": false, "title": "价格显示界面验证", "excerpt": "显示价格为开发用数据。", "body": ["正式计算和价格API尚未连接。","未将参考图中的示例数值作为正式价格。"] }
+  ],
+  "calendar": { "month": "2026年7月", "weekdays": ["日","一","二","三","四","五","六"], "closedDates": [], "notice": "正式营业日将在批准后刊登" },
+  "related": [ { "key": "prices", "label": "行情信息" }, { "key": "items", "label": "收购品目" }, { "key": "process", "label": "交易流程" }, { "key": "company", "label": "公司信息" }, { "key": "contact", "label": "联系我们" } ]
+}

@@ -1,0 +1,22 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-process.png", "alt": "鉴定托盘及工具的开发用图片", "eyebrow": "How it works", "title": "交易流程", "lead": "介绍从咨询到付款的六个审核中步骤，翻译及运营条件尚未批准。" },
+    "breadcrumb": "交易流程", "assurance_label": "交易说明", "steps_eyebrow": "Six steps", "steps_title": "从鉴定到付款的六个步骤", "documents_eyebrow": "Documents", "documents_title": "需准备的资料", "documents_lead": "有效身份证明及运营条件将在批准后刊登。", "notes_eyebrow": "Before visiting", "notes_title": "使用注意事项", "unavailable_title": "无法受理的物品", "unavailable_note": "符合限制条件时可能无法受理。", "point": "POINT", "cta": { "image": "images/pages/hero-items.png", "title": "到店前请先联系我们。", "lead": "可通过开发预览表单提供照片或物品说明。", "line": "LINE预先咨询", "contact": "申请鉴定" }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "鉴定费用", "description": "咨询免费" }, { "mark": "DAY", "title": "付款", "description": "条件审核中" }, { "mark": "ID", "title": "身份确认", "description": "法务审核中" }, { "mark": "LOCK", "title": "隐私", "description": "妥善管理" }, { "mark": "PRO", "title": "专业人员", "description": "认真接待" }
+  ],
+  "steps": [
+    { "number": "01", "mark": "SHOP", "title": "到店与咨询", "description": "到店前可通过开发预览联系页面告知物品及需求。", "point": "正式受理方式待批准。", "image": "images/pages/hero-company.png", "alt": "咨询空间开发用图片" },
+    { "number": "02", "mark": "FORM", "title": "受理与保管", "description": "确认物品及正式规则要求的身份证明。", "point": "逐件认真确认。", "image": "images/pages/hero-contact.png", "alt": "受理资料开发用图片" },
+    { "number": "03", "mark": "LENS", "title": "鉴定", "description": "确认重量、成色及状态，并整理鉴定内容。", "point": "正式鉴定标准将在后续连接。", "image": "images/pages/hero-process.png", "alt": "鉴定工具与贵金属开发用图片" },
+    { "number": "04", "mark": "CALC", "title": "提示鉴定金额", "description": "说明鉴定依据及金额；当前价格仍为开发用数据。", "point": "清晰说明结果。", "image": "images/pages/hero-prices.png", "alt": "价格确认开发用图片" },
+    { "number": "05", "mark": "ID", "title": "身份确认", "description": "根据获批法律和运营规则确认身份，适用资料尚待确定。", "point": "法务与运营审核中。", "image": "images/pages/hero-contact.png", "alt": "抽象身份确认开发用图片" },
+    { "number": "06", "mark": "PAY", "title": "付款", "description": "仅在认可鉴定内容后，按正式批准的方式付款。", "point": "付款条件待正式信息。", "image": "images/pages/hero-items.png", "alt": "交易完成开发用图片" }
+  ],
+  "documents": [
+    { "title": "身份证明", "description": "适用资料将在法务及运营审核后刊登。" }, { "title": "企业交易", "description": "可能需要企业及负责人确认资料。" }, { "title": "未成年人交易", "description": "受理条件将在正式政策批准后刊登。" }
+  ],
+  "notes": ["不接受鉴定结果时可放弃交易。", "交易及付款条件仍在审核中。", "安全或材质确认可能需要额外时间。", "部分物品可能需要留存确认。"],
+  "unavailable": ["无法确认所有权的物品", "依法限制交易的物品", "无法安全处理的物品", "部分无法确认真伪或材质的物品"]
+}

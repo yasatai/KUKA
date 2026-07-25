@@ -1,0 +1,27 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-items.png", "alt": "금속 제품과 주얼리를 배치한 개발용 이미지", "eyebrow": "Purchase categories", "title": "매입 품목", "lead": "귀금속을 품위, 중량, 상태에 따라 한 점씩 확인합니다. 번역 검토 중인 페이지입니다." },
+    "breadcrumb": "매입 품목", "assurance_label": "매입 서비스 안내", "categories_eyebrow": "Categories", "categories_title": "확인 가능한 귀금속", "categories_lead": "지금, 코인, 주얼리, 제품, 스크랩 및 산업용 소재를 한 점씩 확인합니다.", "detail_label": "자세히 보기", "unavailable_eyebrow": "Unavailable", "unavailable_title": "취급할 수 없는 품목", "review_eyebrow": "Needs review", "review_title": "사전 확인이 필요한 품목", "faq_eyebrow": "FAQ", "faq_title": "매입 품목 자주 묻는 질문", "bottom_title": "안심 상담", "cta": { "title": "확인 가능한 품목인지 고민되면 문의해 주세요.", "lead": "개발용 문의 화면에서 품목 상태를 알려 주세요.", "line": "LINE 사전 상담", "contact": "무료 감정 신청", "pending": "공식 전화번호와 접수 시간은 제공 후 게시합니다." }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "감정·취소 비용", "description": "상담 무료" }, { "mark": "UP", "title": "가격 정보", "description": "개발용 데이터 표시" }, { "mark": "DAY", "title": "지급 방법", "description": "공식 조건 검토 중" }, { "mark": "MIX", "title": "작은 혼합 품목", "description": "함께 확인" }
+  ],
+  "categories": [
+    { "id": "gold", "name": "지금·인곳", "mark": "Au", "description": "금·은·플래티넘·팔라듐 지금과 인곳을 확인합니다.", "note": "브랜드·각인 확인", "image": "images/pages/hero-prices.png", "alt": "지금 개발용 이미지" },
+    { "id": "coins", "name": "금화·은화·기념 코인", "mark": "Co", "description": "금화, 은화, 기념 코인과 해외 코인을 확인합니다.", "note": "한 점부터 확인", "image": "images/pages/hero-items.png", "alt": "코인과 귀금속 개발용 이미지" },
+    { "id": "jewelry", "name": "주얼리·액세서리", "mark": "Jw", "description": "끊어진 목걸이, 한쪽 귀걸이, 보석이 빠진 반지도 상담할 수 있습니다.", "note": "상태별 확인", "image": "images/brand/fv-background.jpeg", "alt": "장식용 금속 제품 개발용 이미지" },
+    { "id": "silver", "name": "은제품", "mark": "Ag", "description": "은식기, 커틀러리, 장식품 등의 재질을 확인합니다.", "note": "변색·손상도 확인", "image": "images/pages/hero-items.png", "alt": "은제품 개발용 이미지" },
+    { "id": "platinum", "name": "플래티넘 제품", "mark": "Pt", "description": "플래티넘 반지, 목걸이와 산업용 소재를 확인합니다.", "note": "Pt 각인 확인", "image": "images/pages/hero-process.png", "alt": "감정 도구와 귀금속 개발용 이미지" },
+    { "id": "palladium", "name": "팔라듐 제품", "mark": "Pd", "description": "팔라듐 반지, 산업용 소재와 합금 제품을 상담할 수 있습니다.", "note": "Pd 각인 확인", "image": "images/pages/hero-top.png", "alt": "귀금속 제품 개발용 이미지" },
+    { "id": "scrap", "name": "금·은·플래티넘 스크랩", "mark": "Sc", "description": "자투리, 파손품, 부품과 끊어진 체인을 확인합니다.", "note": "품위 불명도 상담", "image": "images/pages/hero-process.png", "alt": "감정 대상 개발용 이미지" },
+    { "id": "tableware", "name": "산업용 소재", "mark": "In", "description": "귀금속을 포함한 선재, 판재 및 부품은 법인·대량 상담도 가능합니다.", "note": "대형·대량은 사전 상담", "image": "images/pages/hero-company.png", "alt": "산업용 소재 개발용 이미지" }
+  ],
+  "unavailable": ["소유 관계를 확인할 수 없는 품목", "법률로 거래가 제한되는 품목", "안전하게 확인·보관할 수 없는 품목", "일부 진위·재질 확인 불가 품목"],
+  "needsReview": ["각인이 없는 품목", "부속품이나 혼합 소재가 포함된 품목", "대형 또는 특수 형상 품목", "법인·대량 방문"],
+  "faq": [
+    { "question": "각인이 없어도 확인할 수 있나요?", "answer": "일부 품목은 재질을 확인할 수 있으며 상태에 따라 보관 확인이 필요할 수 있습니다." }, { "question": "파손되거나 끊어진 액세서리도 괜찮나요?", "answer": "끊어진 체인이나 한쪽 귀걸이도 소재를 확인할 수 있으면 상담 가능합니다." }, { "question": "보석이 있으면 감정에 영향이 있나요?", "answer": "품목별로 처리 방법이 다르며 공식 규칙은 추후 백엔드와 연결합니다." }, { "question": "해외·브랜드 제품도 상담할 수 있나요?", "answer": "재질과 상태를 한 점씩 확인하며 브랜드 가치 조건은 공식 운영 규칙 대기 중입니다." }, { "question": "어떤 상태라도 확인할 수 있나요?", "answer": "안전하게 취급 가능한 품목은 상담할 수 있으나 법률·보관 제한이 적용될 수 있습니다." }
+  ],
+  "bottomAssurances": [
+    { "mark": "¥0", "title": "상담 비용", "description": "개발 미리보기 상담은 무료" }, { "mark": "DAY", "title": "지급 조건", "description": "공식 운영 정보 확인 중" }, { "mark": "INFO", "title": "명확한 설명", "description": "확인 내용을 세심하게 안내" }, { "mark": "LOCK", "title": "프라이버시 배려", "description": "개인정보를 적절히 관리" }
+  ]
+}

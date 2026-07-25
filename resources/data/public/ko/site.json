@@ -1,0 +1,72 @@
+{
+  "locale": { "label": "한국어", "short_label": "한국어", "review_label": "번역 검토 중" },
+  "meta": { "fixture": true, "notice": "이 페이지는 개발용 데이터를 사용하며 공식 정보 승인 후 교체됩니다.", "review_banner": "번역 검토 중: 이 한국어 페이지는 미리보기이며 정식 공개가 승인되지 않았습니다." },
+  "publication": { "translation_status": "review", "pages": { "home": { "page_status": "preview", "is_indexable": false }, "prices": { "page_status": "preview", "is_indexable": false }, "items": { "page_status": "preview", "is_indexable": false }, "process": { "page_status": "preview", "is_indexable": false }, "company": { "page_status": "preview", "is_indexable": false }, "news": { "page_status": "preview", "is_indexable": false }, "news_show": { "page_status": "preview", "is_indexable": false }, "contact": { "page_status": "preview", "is_indexable": false } } },
+  "brand": { "name": "KUKA", "tagline": "귀금속 매입 서비스", "description": "각 감정 과정을 알기 쉽게 설명하는 귀금속 매입 서비스의 검토용 사이트입니다." },
+  "navigation": [ { "page_key": "home", "label": "홈" }, { "page_key": "prices", "label": "시세 정보" }, { "page_key": "items", "label": "매입 품목" }, { "page_key": "process", "label": "거래 절차" }, { "page_key": "company", "label": "회사 정보" }, { "page_key": "news", "label": "공지사항" }, { "page_key": "contact", "label": "문의" } ],
+  "assurances": [ { "title": "감정료 0엔", "description": "감정 관련 비용은 받지 않을 예정입니다." }, { "title": "명확한 안내", "description": "감정 기준을 알기 쉽게 설명합니다." }, { "title": "개인정보 배려", "description": "차분하게 상담할 수 있는 환경을 중시합니다." } ],
+  "seo": { "home": { "title": "KUKA｜귀금속 매입 서비스", "description": "금, 은, 백금, 팔라듐 매입 정보의 번역 검토용 미리보기입니다." }, "prices": { "title": "시세 정보｜KUKA", "description": "개발용 참고 가격과 순도표의 번역 검토용 미리보기입니다." }, "items": { "title": "매입 품목｜KUKA", "description": "예정된 귀금속 및 주얼리 품목의 번역 검토용 미리보기입니다." }, "process": { "title": "거래 절차｜KUKA", "description": "상담부터 지급까지의 절차를 설명하는 번역 검토용 미리보기입니다." }, "company": { "title": "회사 정보｜KUKA", "description": "번역 검토용 미리보기이며 공식 회사 및 매장 정보는 제공되지 않았습니다." }, "news": { "title": "공지사항｜KUKA", "description": "개발용 공지와 영업 정보의 번역 검토용 미리보기입니다." }, "contact": { "title": "문의｜KUKA", "description": "데이터를 전송하지 않는 문의 UI의 번역 검토용 미리보기입니다." } },
+  "ui": { "skip_link": "본문으로 이동", "state_label": "사이트 상태", "utility_primary": "공개 준비 중｜회사·가격·영업 정보 미확정", "utility_secondary": "전화 및 LINE 접수는 아직 시작되지 않았습니다", "main_navigation": "주요 메뉴", "footer_navigation": "푸터 메뉴", "footer_pending": "회사, 전화, 주소 및 허가 정보는 공식 승인 후에만 게시합니다.", "footer_preview": "© 2026 KUKA. 개발 미리보기.", "footer_indexing": "정식 공개 전까지 검색 엔진 등록을 중지합니다.", "mobile_fixed_navigation": "모바일 고정 메뉴", "line_unavailable": "LINE\n미연결", "line_unavailable_aria": "LINE이 연결되지 않았습니다", "access": "오시는 길", "contact": "문의", "language_navigation": "언어 선택", "translation_unavailable": "해당 번역 없음", "home": "홈", "cta": { "eyebrow": "Contact", "title": "먼저 물품에 대해\n알려 주세요.", "lead": "문의 화면은 저장·전송하지 않는 개발용 미리보기입니다.", "contact": "문의 화면으로", "process": "거래 절차 보기" }, "mobile": { "open": "메뉴 열기", "close": "메뉴 닫기", "dialog": "주요 메뉴", "navigation": "모바일 메뉴" }, "common": { "important": "중요", "fixture_article": "개발용 기사", "back_to_news": "공지 목록으로", "tax_included": "세금 포함", "change": "전일 대비" } },
+  "home": {
+    "utility": { "text": "공개 준비 중｜회사·가격·영업 정보 미확정" },
+    "hero": {
+      "image": "images/brand/fv-background.jpeg", "alt": "",
+      "eyebrow": { "text": "Precious metals, explained clearly", "desktop_lines": [] },
+      "title": { "text": "가치를 바라보고, 정직하게 설명합니다.", "desktop_lines": [] },
+      "lead": { "text": "금, 은, 백금, 팔라듐. 소중한 물품을 세심히 확인하고 감정 기준을 알기 쉽게 안내합니다.", "desktop_lines": [] },
+      "assurances": [
+        { "icon": "gift", "title": "감정료 0엔", "description": "감정 관련 비용은 받지 않을 예정입니다." },
+        { "icon": "chart", "title": "명확한 안내", "description": "감정 기준을 알기 쉽게 설명합니다." },
+        { "icon": "line", "title": "개인정보 배려", "description": "차분하게 상담할 수 있는 환경을 중시합니다." },
+        { "icon": "payment", "title": "업데이트", "description": "", "dynamic_description": "prices.meta.updatedAt" }
+      ],
+      "actions": [ { "key": "prices", "label": "개발용 시세 보기", "description": "" }, { "key": "items", "label": "매입 품목 보기", "description": "" } ],
+      "note": { "text": "표시 가격은 UI 확인용 예시이며 실제 매입 가격이나 계산 결과가 아닙니다.", "desktop_lines": [] }
+    },
+    "prices": {
+      "eyebrow": "Market reference", "title": { "text": "오늘의 개발용 참고 가격", "desktop_lines": [] },
+      "lead": { "text": "표시 가격은 UI 확인용 예시이며 실제 매입 가격이나 계산 결과가 아닙니다.", "desktop_lines": [] },
+      "link": "순도별 개발용 가격표 보기", "card_link": "순도별 개발용 가격표 보기",
+      "note": { "text": "표시 가격은 UI 확인용 예시이며 실제 매입 가격이나 계산 결과가 아닙니다.", "desktop_lines": [] }
+    },
+    "reasons": {
+      "eyebrow": "Why KUKA", "title": { "text": "안심하고 상담할 수 있도록", "desktop_lines": [] },
+      "items": [
+        { "title": "세심한 확인", "description": { "text": "물품별 상태와 판단 과정을 알기 쉽게 설명합니다.", "desktop_lines": [] } },
+        { "title": "명확한 비용", "description": { "text": "거래 전 필요한 비용을 명확히 안내합니다.", "desktop_lines": [] } },
+        { "title": "편안한 환경", "description": { "text": "개인정보를 배려하고 충분히 검토할 수 있는 환경을 마련합니다.", "desktop_lines": [] } },
+        { "title": "가격 상태 표시", "description": { "text": "개발 데이터와 공식 가격을 구분합니다.", "desktop_lines": [] } },
+        { "title": "신중한 정보 관리", "description": { "text": "거래 정보의 적절한 관리를 전제로 합니다.", "desktop_lines": [] } }
+      ]
+    },
+    "process": {
+      "eyebrow": "Simple process", "title": { "text": "6단계", "desktop_lines": [] },
+      "steps": [
+        { "number": "01", "title": "상담", "description": { "text": "매장 또는 문의 미리보기에서 물품과 요청을 상담합니다.", "desktop_lines": [] } },
+        { "number": "02", "title": "방문·접수", "description": { "text": "물품과 공식 운영상 필요한 본인 확인 서류를 준비합니다.", "desktop_lines": [] } },
+        { "number": "03", "title": "계량·확인", "description": { "text": "중량, 순도, 상태를 물품별로 확인합니다.", "desktop_lines": [] } },
+        { "number": "04", "title": "감정 내용 설명", "description": { "text": "감정 기준과 금액을 알기 쉽게 안내합니다.", "desktop_lines": [] } },
+        { "number": "05", "title": "고객 결정", "description": { "text": "설명을 확인하고 납득한 경우에만 거래합니다.", "desktop_lines": [] } },
+        { "number": "06", "title": "절차·지급", "description": { "text": "필요 사항 확인 후 승인된 방법으로 지급합니다.", "desktop_lines": [] } }
+      ],
+      "link": "필요 서류와 주의사항 보기"
+    },
+    "items": {
+      "eyebrow": "Items", "title": { "text": "주요 매입 품목", "desktop_lines": [] },
+      "lead": { "text": "상태나 각인 유무만으로 판단하지 않고 물품별로 확인합니다.", "desktop_lines": [] }, "link": "모든 품목과 확인사항 보기",
+      "cards": [
+        { "item_id": "gold", "label": "금·골드바" }, { "item_id": "coins", "label": "코인·기념품" },
+        { "item_id": "jewelry", "label": "주얼리" }, { "item_id": "tableware", "label": "금·은 제품" },
+        { "item_id": "scrap", "label": "파손품·자투리" }
+      ]
+    },
+    "store": { "eyebrow": "Store", "title": { "text": "매장·회사 정보", "desktop_lines": [] }, "lead": { "text": "공식 회사 및 매장 정보가 제공되지 않았으며 번역 검토 중입니다.", "desktop_lines": [] }, "link": "회사 정보 보기" },
+    "news": { "eyebrow": "Latest news", "title": { "text": "최근 공지", "desktop_lines": [] }, "link": "공지 목록 보기" },
+    "final_cta": {
+      "eyebrow": "Contact", "title": { "text": "먼저 물품에 대해 알려 주세요.", "desktop_lines": [] },
+      "lead": { "text": "문의 화면은 저장·전송하지 않는 개발용 미리보기입니다.", "desktop_lines": [] },
+      "actions": [ { "key": "contact", "label": "문의 화면으로", "description": "" }, { "key": "process", "label": "거래 절차 보기", "description": "" } ]
+    },
+    "footer": { "description": { "text": "각 감정 과정을 알기 쉽게 설명하는 귀금속 매입 서비스의 검토용 사이트입니다.", "desktop_lines": [] }, "legal_links": [] }
+  }
+}

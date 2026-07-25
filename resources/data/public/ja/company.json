@@ -1,0 +1,21 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-company.png", "alt": "相談カウンターを想定した開発用内観イメージ", "eyebrow": "Company", "title": "会社情報", "lead": "貴金属買取の窓口として、透明性のあるご案内と、安心して相談できる環境づくりを目指します。" },
+    "breadcrumb": "会社情報", "assurance_label": "店舗とお取引の安心情報", "profile_title": "会社概要", "access_title": "アクセス", "store_label": "店舗", "address_label": "所在地", "access_label": "アクセス", "map_aria": "正式なアクセス情報提供後に地図を掲載", "map_title": "MAP / ACCESS", "map_text": "正式情報提供後に掲載", "features_title": "店舗情報", "licenses_title": "許認可・所属団体", "licenses_lead": "許可番号や証票を推測・捏造せず、正確な情報の提供後に掲載します。",
+    "cta": { "image": "images/pages/hero-prices.png", "title": "貴金属のご売却をお考えの方は、お気軽にご相談ください。", "lead": "写真やお品物の情報をお知らせください。", "line": "LINEで事前相談する", "contact": "無料査定を申し込む", "pending_label": "お電話でのお問い合わせ", "pending_value": "正式情報提供後に掲載" }
+  },
+  "meta": { "fixture": true, "notice": "会社・店舗の正式情報は提供後に掲載します。" },
+  "assurances": [
+    { "mark": "CLEAR", "title": "公正・透明な査定", "description": "丁寧にご説明" }, { "mark": "SHOP", "title": "実店舗で安心取引", "description": "アクセス良好" }, { "mark": "PAY", "title": "お支払い条件", "description": "正式情報確認中" }, { "mark": "LOCK", "title": "プライバシーに配慮", "description": "安心の取扱い" }, { "mark": "PRO", "title": "専門スタッフ", "description": "丁寧に対応" }
+  ],
+  "profile": [
+    { "label": "会社名", "value": "正式情報提供後に掲載" }, { "label": "代表者", "value": "正式情報提供後に掲載" }, { "label": "所在地", "value": "正式情報提供後に掲載" }, { "label": "電話番号", "value": "正式情報提供後に掲載" }, { "label": "営業時間", "value": "正式情報提供後に掲載" }, { "label": "事業内容", "value": "貴金属等の買取（公開準備中）" }
+  ],
+  "store": { "name": "正式情報提供後に掲載", "address": "正式情報提供後に掲載", "access": "最寄り駅・駐車場等は正式情報提供後に掲載", "map": null, "image": "images/pages/hero-company.png", "alt": "正式店舗写真への差し替えを前提とした開発用内観イメージ" },
+  "features": [
+    { "title": "明るく清潔な店内", "description": "落ち着いて相談できる空間づくりを目指します。", "image": "images/pages/hero-company.png", "alt": "相談空間の開発用イメージ" }, { "title": "専門スタッフによる査定", "description": "一点ずつ丁寧に確認する運用を整えます。", "image": "images/pages/hero-process.png", "alt": "査定道具の開発用イメージ" }, { "title": "個室でのご相談も可能", "description": "プライバシーに配慮した相談環境を目指します。", "image": "images/pages/hero-contact.png", "alt": "相談席の開発用イメージ" }, { "title": "精密な計測機器を使用", "description": "正確に確認できる設備を整える予定です。", "image": "images/pages/hero-prices.png", "alt": "査定機器を想定した開発用イメージ" }, { "title": "安心・安全のセキュリティ", "description": "安全な環境で取引いただける運用を整えます。", "image": "images/pages/hero-items.png", "alt": "安全な取引環境を示す開発用イメージ" }
+  ],
+  "licenses": [
+    { "mark": "PERMIT", "label": "古物商許可", "value": "正式な許可情報提供後に掲載" }, { "mark": "GROUP", "label": "加盟団体", "value": "正式な所属情報提供後に掲載" }, { "mark": "LAW", "label": "法令遵守・コンプライアンス", "value": "法務・運用確認後に正式情報を掲載" }
+  ]
+}

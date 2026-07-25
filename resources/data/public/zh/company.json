@@ -1,0 +1,21 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-company.png", "alt": "用于开发的咨询柜台室内示意图", "eyebrow": "Company", "title": "公司信息", "lead": "我们致力于提供透明的说明和安心的贵金属咨询环境。本页翻译仍在审核中。" },
+    "breadcrumb": "公司信息", "assurance_label": "门店与交易保障", "profile_title": "公司概要", "access_title": "交通信息", "store_label": "门店", "address_label": "地址", "access_label": "交通", "map_aria": "正式交通信息提供后显示地图", "map_title": "MAP / ACCESS", "map_text": "正式信息提供后刊登", "features_title": "门店信息", "licenses_title": "许可与所属团体", "licenses_lead": "不推测或伪造许可证号、证书或所属团体。须在正式资料和翻译审核通过后刊登。",
+    "cta": { "image": "images/pages/hero-prices.png", "title": "如考虑出售贵金属，欢迎先行咨询。", "lead": "可提供照片或物品基本信息。本页翻译仍在审核中。", "line": "通过LINE预先咨询", "contact": "申请免费评估", "pending_label": "电话咨询", "pending_value": "正式信息提供后刊登" }
+  },
+  "meta": { "fixture": true, "notice": "公司和门店正式信息尚未提供，本页翻译仍在审核中。" },
+  "assurances": [
+    { "mark": "CLEAR", "title": "透明说明", "description": "细致说明" }, { "mark": "SHOP", "title": "实体门店", "description": "交通信息待定" }, { "mark": "PAY", "title": "付款条件", "description": "审核中" }, { "mark": "LOCK", "title": "隐私保护", "description": "妥善管理" }, { "mark": "PRO", "title": "专业人员", "description": "细致接待" }
+  ],
+  "profile": [
+    { "label": "公司名称", "value": "正式信息提供后刊登" }, { "label": "代表人", "value": "正式信息提供后刊登" }, { "label": "地址", "value": "正式信息提供后刊登" }, { "label": "电话号码", "value": "正式信息提供后刊登" }, { "label": "营业时间", "value": "正式信息提供后刊登" }, { "label": "业务内容", "value": "贵金属等收购（发布准备中）" }
+  ],
+  "store": { "name": "正式信息提供后刊登", "address": "正式信息提供后刊登", "access": "最近车站及停车场信息提供后刊登", "map": null, "image": "images/pages/hero-company.png", "alt": "等待正式门店照片替换的开发用室内图" },
+  "features": [
+    { "title": "明亮整洁的店内", "description": "计划营造安心咨询的环境。", "image": "images/pages/hero-company.png", "alt": "开发用咨询空间图" }, { "title": "专业人员评估", "description": "计划逐件仔细确认。", "image": "images/pages/hero-process.png", "alt": "开发用评估工具图" }, { "title": "重视隐私的咨询", "description": "计划提供重视隐私的咨询环境。", "image": "images/pages/hero-contact.png", "alt": "开发用咨询座位图" }, { "title": "精密测量设备", "description": "计划配置用于仔细确认的设备。", "image": "images/pages/hero-prices.png", "alt": "开发用设备图" }, { "title": "安全保障", "description": "正在准备安全交易的运营方式。", "image": "images/pages/hero-items.png", "alt": "开发用安全环境图" }
+  ],
+  "licenses": [
+    { "mark": "PERMIT", "label": "古物商许可", "value": "正式许可信息提供后刊登" }, { "mark": "GROUP", "label": "所属团体", "value": "正式所属信息提供后刊登" }, { "mark": "LAW", "label": "法规遵守", "value": "法务、运营及翻译审核后刊登" }
+  ]
+}

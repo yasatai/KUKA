@@ -1,0 +1,22 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-process.png", "alt": "감정 트레이와 도구를 배치한 개발용 이미지", "eyebrow": "How it works", "title": "거래 절차", "lead": "상담부터 지급까지의 여섯 단계이며 번역과 운영 조건은 아직 승인 전입니다." },
+    "breadcrumb": "거래 절차", "assurance_label": "거래 안내", "steps_eyebrow": "Six steps", "steps_title": "감정부터 지급까지 6단계", "documents_eyebrow": "Documents", "documents_title": "준비할 것", "documents_lead": "유효한 본인 확인 서류와 운영 조건은 승인 후 게시합니다.", "notes_eyebrow": "Before visiting", "notes_title": "이용 시 안내", "unavailable_title": "취급할 수 없는 품목", "unavailable_note": "제한 사항에 해당하면 거래를 거절할 수 있습니다.", "point": "POINT", "cta": { "image": "images/pages/hero-items.png", "title": "방문 전에 문의해 주세요.", "lead": "개발 미리보기 문의 화면에서 사진이나 품목 정보를 알려 주세요.", "line": "LINE 사전 상담", "contact": "감정 신청" }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "감정 비용", "description": "상담 무료" }, { "mark": "DAY", "title": "지급", "description": "조건 검토 중" }, { "mark": "ID", "title": "본인 확인", "description": "법무 검토 중" }, { "mark": "LOCK", "title": "프라이버시", "description": "적절히 관리" }, { "mark": "PRO", "title": "전문 담당", "description": "세심한 안내" }
+  ],
+  "steps": [
+    { "number": "01", "mark": "SHOP", "title": "방문·상담", "description": "방문 전에 개발 미리보기 문의 화면에서 품목과 요청을 상담할 수 있습니다.", "point": "공식 접수 방법 승인 대기.", "image": "images/pages/hero-company.png", "alt": "상담 공간 개발용 이미지" },
+    { "number": "02", "mark": "FORM", "title": "접수·보관", "description": "품목과 공식 규칙에서 요구하는 본인 확인 서류를 확인합니다.", "point": "한 점씩 세심하게 확인.", "image": "images/pages/hero-contact.png", "alt": "접수 서류 개발용 이미지" },
+    { "number": "03", "mark": "LENS", "title": "감정", "description": "중량, 품위와 상태를 확인하고 감정 내용을 정리합니다.", "point": "공식 기준은 추후 연결.", "image": "images/pages/hero-process.png", "alt": "감정 도구와 귀금속 개발용 이미지" },
+    { "number": "04", "mark": "CALC", "title": "감정액 제시", "description": "감정 근거와 금액을 설명하며 표시 가격은 개발용 데이터입니다.", "point": "결과를 명확히 설명.", "image": "images/pages/hero-prices.png", "alt": "가격 확인 개발용 이미지" },
+    { "number": "05", "mark": "ID", "title": "본인 확인", "description": "승인된 법률·운영에 따라 확인하며 대상 서류는 확정 전입니다.", "point": "법무·운영 검토 중.", "image": "images/pages/hero-contact.png", "alt": "추상 본인 확인 개발용 이미지" },
+    { "number": "06", "mark": "PAY", "title": "지급", "description": "감정 내용에 동의한 경우에만 승인된 방법으로 지급합니다.", "point": "지급 조건 공식 정보 대기.", "image": "images/pages/hero-items.png", "alt": "거래 완료 개발용 이미지" }
+  ],
+  "documents": [
+    { "title": "본인 확인 서류", "description": "대상 서류는 법무·운영 검토 후 게시합니다." }, { "title": "법인 거래", "description": "법인 및 담당자 확인 서류가 추가로 필요할 수 있습니다." }, { "title": "미성년자 거래", "description": "접수 조건은 공식 정책 승인 후 게시합니다." }
+  ],
+  "notes": ["감정 결과에 동의하지 않으면 거래를 중단할 수 있습니다.", "거래와 지급 조건은 검토 중입니다.", "안전·재질 확인에 추가 시간이 필요할 수 있습니다.", "일부 품목은 보관 확인이 필요할 수 있습니다."],
+  "unavailable": ["소유 관계를 확인할 수 없는 품목", "법률로 거래가 제한되는 품목", "안전하게 취급할 수 없는 품목", "일부 진위·재질 확인 불가 품목"]
+}

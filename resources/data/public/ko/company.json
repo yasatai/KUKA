@@ -1,0 +1,21 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-company.png", "alt": "상담 카운터를 표현한 개발용 실내 이미지", "eyebrow": "Company", "title": "회사 정보", "lead": "투명한 안내와 안심하고 상담할 수 있는 귀금속 거래 환경을 준비하고 있습니다. 번역 검토 중입니다." },
+    "breadcrumb": "회사 정보", "assurance_label": "매장 및 거래 안심 정보", "profile_title": "회사 개요", "access_title": "오시는 길", "store_label": "매장", "address_label": "주소", "access_label": "교통", "map_aria": "공식 접근 정보 제공 후 지도를 게시", "map_title": "MAP / ACCESS", "map_text": "공식 정보 제공 후 게시", "features_title": "매장 정보", "licenses_title": "허가 및 소속 단체", "licenses_lead": "허가 번호, 증서, 소속 단체를 추측하거나 꾸미지 않습니다. 공식 자료와 번역 승인 후 게시합니다.",
+    "cta": { "image": "images/pages/hero-prices.png", "title": "귀금속 매각을 고려 중이라면 먼저 상담해 주세요.", "lead": "사진이나 물품 기본 정보를 알려 주세요. 번역 검토 중입니다.", "line": "LINE 사전 상담", "contact": "무료 감정 신청", "pending_label": "전화 문의", "pending_value": "공식 정보 제공 후 게시" }
+  },
+  "meta": { "fixture": true, "notice": "회사와 매장의 공식 정보는 아직 제공되지 않았으며 번역 검토 중입니다." },
+  "assurances": [
+    { "mark": "CLEAR", "title": "투명한 안내", "description": "상세한 설명" }, { "mark": "SHOP", "title": "오프라인 매장", "description": "교통 정보 대기" }, { "mark": "PAY", "title": "지급 조건", "description": "검토 중" }, { "mark": "LOCK", "title": "개인정보 보호", "description": "적절한 관리" }, { "mark": "PRO", "title": "전문 상담", "description": "세심한 응대" }
+  ],
+  "profile": [
+    { "label": "회사명", "value": "공식 정보 제공 후 게시" }, { "label": "대표자", "value": "공식 정보 제공 후 게시" }, { "label": "주소", "value": "공식 정보 제공 후 게시" }, { "label": "전화번호", "value": "공식 정보 제공 후 게시" }, { "label": "영업시간", "value": "공식 정보 제공 후 게시" }, { "label": "사업 내용", "value": "귀금속 등 매입(공개 준비 중)" }
+  ],
+  "store": { "name": "공식 정보 제공 후 게시", "address": "공식 정보 제공 후 게시", "access": "가까운 역 및 주차장 정보 제공 후 게시", "map": null, "image": "images/pages/hero-company.png", "alt": "공식 매장 사진 교체를 전제로 한 개발용 실내 이미지" },
+  "features": [
+    { "title": "밝고 깨끗한 매장", "description": "차분하게 상담할 수 있는 환경을 준비합니다.", "image": "images/pages/hero-company.png", "alt": "개발용 상담 공간 이미지" }, { "title": "전문 스태프 감정", "description": "물품을 하나씩 세심하게 확인하는 운영을 준비합니다.", "image": "images/pages/hero-process.png", "alt": "개발용 감정 도구 이미지" }, { "title": "개인 상담", "description": "개인정보를 배려한 상담 환경을 준비합니다.", "image": "images/pages/hero-contact.png", "alt": "개발용 상담 좌석 이미지" }, { "title": "정밀 측정 장비", "description": "세심한 확인을 위한 장비를 준비할 예정입니다.", "image": "images/pages/hero-prices.png", "alt": "개발용 장비 이미지" }, { "title": "안전한 환경", "description": "안전한 거래를 위한 운영을 준비합니다.", "image": "images/pages/hero-items.png", "alt": "개발용 안전 환경 이미지" }
+  ],
+  "licenses": [
+    { "mark": "PERMIT", "label": "고물상 허가", "value": "공식 허가 정보 제공 후 게시" }, { "mark": "GROUP", "label": "소속 단체", "value": "공식 소속 정보 제공 후 게시" }, { "mark": "LAW", "label": "법령 준수", "value": "법무·운영·번역 검토 후 게시" }
+  ]
+}

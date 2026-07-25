@@ -1,0 +1,27 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-items.png", "alt": "金属制品与珠宝的开发用图片", "eyebrow": "Purchase categories", "title": "收购品类", "lead": "按成色、重量及状态逐件确认贵金属。页面文案仍在翻译审核中。" },
+    "breadcrumb": "收购品类", "assurance_label": "收购服务说明", "categories_eyebrow": "Categories", "categories_title": "可确认的贵金属品类", "categories_lead": "金属锭、硬币、珠宝、制品、废料及工业材料均会逐件确认。", "detail_label": "查看详情", "unavailable_eyebrow": "Unavailable", "unavailable_title": "无法受理的物品", "review_eyebrow": "Needs review", "review_title": "需事先确认的物品", "faq_eyebrow": "FAQ", "faq_title": "收购品类常见问题", "bottom_title": "安心咨询", "cta": { "title": "不确定物品是否可以确认时，请先联系我们。", "lead": "可通过开发预览表单告知物品情况。", "line": "LINE预先咨询", "contact": "申请免费鉴定", "pending": "正式电话号码及受理时间尚未提供。" }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "鉴定费与取消费", "description": "咨询免费" }, { "mark": "UP", "title": "价格信息", "description": "显示开发用数据" }, { "mark": "DAY", "title": "付款方式", "description": "正式条件审核中" }, { "mark": "MIX", "title": "零散物品", "description": "可一并确认" }
+  ],
+  "categories": [
+    { "id": "gold", "name": "金属锭与条块", "mark": "Au", "description": "确认黄金、白银、铂金及钯金金属锭。", "note": "确认品牌与刻印", "image": "images/pages/hero-prices.png", "alt": "金属锭开发用图片" },
+    { "id": "coins", "name": "金币、银币与纪念币", "mark": "Co", "description": "逐件确认金币、银币、纪念币及海外硬币。", "note": "单件也可确认", "image": "images/pages/hero-items.png", "alt": "硬币与贵金属开发用图片" },
+    { "id": "jewelry", "name": "珠宝与饰品", "mark": "Jw", "description": "断裂项链、单只耳环及掉石戒指也可咨询。", "note": "按实际状态确认", "image": "images/brand/fv-background.jpeg", "alt": "装饰性金属制品开发用图片" },
+    { "id": "silver", "name": "银制品", "mark": "Ag", "description": "确认银器、餐具、摆件等银制品。", "note": "变色或损伤也可确认", "image": "images/pages/hero-items.png", "alt": "银制品开发用图片" },
+    { "id": "platinum", "name": "铂金制品", "mark": "Pt", "description": "确认铂金戒指、项链及工业材料。", "note": "确认Pt刻印", "image": "images/pages/hero-process.png", "alt": "鉴定工具与贵金属开发用图片" },
+    { "id": "palladium", "name": "钯金制品", "mark": "Pd", "description": "可咨询钯金戒指、工业材料及合金制品。", "note": "确认Pd刻印", "image": "images/pages/hero-top.png", "alt": "贵金属制品开发用图片" },
+    { "id": "scrap", "name": "金银铂废料", "mark": "Sc", "description": "确认边角料、破损件、零件及断裂链条。", "note": "成色不明也可咨询", "image": "images/pages/hero-process.png", "alt": "鉴定对象开发用图片" },
+    { "id": "tableware", "name": "工业材料", "mark": "In", "description": "确认含贵金属的线材、板材及零件，企业或大批量需预先咨询。", "note": "大型及大批量需预先咨询", "image": "images/pages/hero-company.png", "alt": "工业材料开发用图片" }
+  ],
+  "unavailable": ["无法确认所有权的物品", "依法限制交易的物品", "无法安全确认或保管的物品", "部分无法确认真伪或材质的物品"],
+  "needsReview": ["无刻印物品", "含配件或混合材质的物品", "大型或特殊形状物品", "企业或大批量到店"],
+  "faq": [
+    { "question": "没有刻印也能确认吗？", "answer": "部分物品可确认材质，视状态可能需要留存确认。" }, { "question": "破损或断裂的饰品也可以吗？", "answer": "断裂项链或单只耳环在可确认材质时也可受理咨询。" }, { "question": "带宝石会影响鉴定吗？", "answer": "处理方式因物品而异，正式规则将在后端工程中连接。" }, { "question": "海外或品牌制品可以咨询吗？", "answer": "会逐件确认材质及状态，品牌价值处理条件尚待正式运营规则。" }, { "question": "任何状态都可以确认吗？", "answer": "可安全处理的物品可先咨询，但可能受法律或保管条件限制。" }
+  ],
+  "bottomAssurances": [
+    { "mark": "¥0", "title": "咨询费用", "description": "开发预览咨询不收取费用" }, { "mark": "DAY", "title": "付款条件", "description": "正式运营信息待确认" }, { "mark": "INFO", "title": "清晰说明", "description": "认真说明确认内容" }, { "mark": "LOCK", "title": "重视隐私", "description": "妥善管理个人信息" }
+  ]
+}

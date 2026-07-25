@@ -1,0 +1,72 @@
+{
+  "locale": { "label": "简体中文", "short_label": "中文", "review_label": "翻译审核中" },
+  "meta": { "fixture": true, "notice": "本页使用开发用数据，正式信息获批后将进行替换。", "review_banner": "翻译审核中：此简体中文页面仅供预览，尚未批准正式发布。" },
+  "publication": { "translation_status": "review", "pages": { "home": { "page_status": "preview", "is_indexable": false }, "prices": { "page_status": "preview", "is_indexable": false }, "items": { "page_status": "preview", "is_indexable": false }, "process": { "page_status": "preview", "is_indexable": false }, "company": { "page_status": "preview", "is_indexable": false }, "news": { "page_status": "preview", "is_indexable": false }, "news_show": { "page_status": "preview", "is_indexable": false }, "contact": { "page_status": "preview", "is_indexable": false } } },
+  "brand": { "name": "KUKA", "tagline": "贵金属收购服务", "description": "以清晰、细致的说明为目标的贵金属收购服务预览网站。" },
+  "navigation": [ { "page_key": "home", "label": "首页" }, { "page_key": "prices", "label": "行情信息" }, { "page_key": "items", "label": "收购品类" }, { "page_key": "process", "label": "交易流程" }, { "page_key": "company", "label": "公司信息" }, { "page_key": "news", "label": "通知" }, { "page_key": "contact", "label": "联系我们" } ],
+  "assurances": [ { "title": "鉴定费 0日元", "description": "预计不收取鉴定相关费用。" }, { "title": "清晰说明", "description": "用易懂的方式说明鉴定思路。" }, { "title": "重视隐私", "description": "重视安静、安心的咨询环境。" } ],
+  "seo": { "home": { "title": "KUKA｜贵金属收购服务", "description": "KUKA金、银、铂、钯收购信息的翻译审核预览。" }, "prices": { "title": "行情信息｜KUKA", "description": "开发用参考价格和成色表的翻译审核预览。" }, "items": { "title": "收购品类｜KUKA", "description": "计划收购的贵金属和珠宝品类翻译审核预览。" }, "process": { "title": "交易流程｜KUKA", "description": "从咨询到付款流程的翻译审核预览。" }, "company": { "title": "公司信息｜KUKA", "description": "翻译审核预览。正式公司及门店信息尚未提供。" }, "news": { "title": "通知｜KUKA", "description": "开发用通知和营业信息的翻译审核预览。" }, "contact": { "title": "联系我们｜KUKA", "description": "联系表单界面的翻译审核预览，不会发送数据。" } },
+  "ui": { "skip_link": "跳到正文", "state_label": "网站状态", "utility_primary": "公开准备中｜公司、价格和营业信息尚未确定", "utility_secondary": "电话及LINE受理尚未开始", "main_navigation": "主导航", "footer_navigation": "页脚导航", "footer_pending": "公司、电话、地址及许可信息仅在正式批准后刊登。", "footer_preview": "© 2026 KUKA. 开发预览。", "footer_indexing": "正式公开前已停止搜索引擎收录。", "mobile_fixed_navigation": "手机固定菜单", "line_unavailable": "LINE\n未连接", "line_unavailable_aria": "LINE尚未连接", "access": "交通", "contact": "联系我们", "language_navigation": "选择语言", "translation_unavailable": "无对应翻译", "home": "首页", "cta": { "eyebrow": "Contact", "title": "请先告诉我们\n您的物品情况。", "lead": "联系页面目前是不保存、不发送数据的开发预览。", "contact": "前往联系页面", "process": "查看交易流程" }, "mobile": { "open": "打开菜单", "close": "关闭菜单", "dialog": "主菜单", "navigation": "手机导航" }, "common": { "important": "重要", "fixture_article": "开发用文章", "back_to_news": "返回通知列表", "tax_included": "含税", "change": "较前日" } },
+  "home": {
+    "utility": { "text": "公开准备中｜公司、价格和营业信息尚未确定" },
+    "hero": {
+      "image": "images/brand/fv-background.jpeg", "alt": "",
+      "eyebrow": { "text": "Precious metals, explained clearly", "desktop_lines": [] },
+      "title": { "text": "正视价值，诚信说明。", "desktop_lines": [] },
+      "lead": { "text": "金、银、铂、钯。认真对待每件物品，并以易懂的方式说明鉴定思路。", "desktop_lines": [] },
+      "assurances": [
+        { "icon": "gift", "title": "鉴定费 0日元", "description": "预计不收取鉴定相关费用。" },
+        { "icon": "chart", "title": "清晰说明", "description": "用易懂的方式说明鉴定思路。" },
+        { "icon": "line", "title": "重视隐私", "description": "重视安静、安心的咨询环境。" },
+        { "icon": "payment", "title": "更新时间", "description": "", "dynamic_description": "prices.meta.updatedAt" }
+      ],
+      "actions": [ { "key": "prices", "label": "查看开发用行情", "description": "" }, { "key": "items", "label": "查看收购品类", "description": "" } ],
+      "note": { "text": "显示价格仅为UI确认数据，并非实际收购价或计算结果。", "desktop_lines": [] }
+    },
+    "prices": {
+      "eyebrow": "Market reference", "title": { "text": "今日开发用参考价格", "desktop_lines": [] },
+      "lead": { "text": "显示价格仅为UI确认数据，并非实际收购价或计算结果。", "desktop_lines": [] },
+      "link": "查看成色参考价格表", "card_link": "查看成色参考价格表",
+      "note": { "text": "显示价格仅为UI确认数据，并非实际收购价或计算结果。", "desktop_lines": [] }
+    },
+    "reasons": {
+      "eyebrow": "Why KUKA", "title": { "text": "让咨询更安心", "desktop_lines": [] },
+      "items": [
+        { "title": "细致确认", "description": { "text": "逐件确认状态并说明判断过程。", "desktop_lines": [] } },
+        { "title": "费用透明", "description": { "text": "交易前明确说明必要费用。", "desktop_lines": [] } },
+        { "title": "安心环境", "description": { "text": "提供兼顾隐私、便于考虑的环境。", "desktop_lines": [] } },
+        { "title": "明确价格状态", "description": { "text": "区分开发数据与正式价格。", "desktop_lines": [] } },
+        { "title": "谨慎管理信息", "description": { "text": "以妥善管理交易信息为前提。", "desktop_lines": [] } }
+      ]
+    },
+    "process": {
+      "eyebrow": "Simple process", "title": { "text": "六个步骤", "desktop_lines": [] },
+      "steps": [
+        { "number": "01", "title": "咨询", "description": { "text": "可在门店或联系预览页面咨询物品和需求。", "desktop_lines": [] } },
+        { "number": "02", "title": "到店与受理", "description": { "text": "请携带物品及正式运营规则要求的身份证明。", "desktop_lines": [] } },
+        { "number": "03", "title": "计量与确认", "description": { "text": "逐件确认重量、成色和状态。", "desktop_lines": [] } },
+        { "number": "04", "title": "说明鉴定内容", "description": { "text": "以易懂方式说明鉴定思路和金额。", "desktop_lines": [] } },
+        { "number": "05", "title": "作出决定", "description": { "text": "确认并接受说明后才进入交易。", "desktop_lines": [] } },
+        { "number": "06", "title": "手续与付款", "description": { "text": "确认必要事项后以获批方式付款。", "desktop_lines": [] } }
+      ],
+      "link": "查看所需资料及注意事项"
+    },
+    "items": {
+      "eyebrow": "Items", "title": { "text": "主要收购品类", "desktop_lines": [] },
+      "lead": { "text": "不会仅凭状态或刻印判断，而会逐件确认。", "desktop_lines": [] }, "link": "查看全部品类与确认事项",
+      "cards": [
+        { "item_id": "gold", "label": "黄金及金条" }, { "item_id": "coins", "label": "硬币及纪念品" },
+        { "item_id": "jewelry", "label": "珠宝" }, { "item_id": "tableware", "label": "金银制品" },
+        { "item_id": "scrap", "label": "破损品及边角料" }
+      ]
+    },
+    "store": { "eyebrow": "Store", "title": { "text": "门店与公司信息", "desktop_lines": [] }, "lead": { "text": "正式公司及门店信息尚未提供，翻译审核中。", "desktop_lines": [] }, "link": "查看公司信息" },
+    "news": { "eyebrow": "Latest news", "title": { "text": "最新通知", "desktop_lines": [] }, "link": "查看通知列表" },
+    "final_cta": {
+      "eyebrow": "Contact", "title": { "text": "请先告诉我们您的物品情况。", "desktop_lines": [] },
+      "lead": { "text": "联系页面目前是不保存、不发送数据的开发预览。", "desktop_lines": [] },
+      "actions": [ { "key": "contact", "label": "前往联系页面", "description": "" }, { "key": "process", "label": "查看交易流程", "description": "" } ]
+    },
+    "footer": { "description": { "text": "以清晰、细致的说明为目标的贵金属收购服务预览网站。", "desktop_lines": [] }, "legal_links": [] }
+  }
+}

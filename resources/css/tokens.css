@@ -1,0 +1,21 @@
+:root {
+    --kuka-white: #ffffff;
+    --kuka-navy-950: #031d35;
+    --kuka-navy-900: #062743;
+    --kuka-navy-700: #173e5d;
+    --kuka-ivory-50: #fdfbf7;
+    --kuka-ivory-100: #f6f0e7;
+    --kuka-gold-500: #bf7d22;
+    --kuka-gold-300: #d9b170;
+    --kuka-gold-700: #87540f;
+    --kuka-green-600: #087c3f;
+    --kuka-red-600: #b4232d;
+    --kuka-border: #ded6ca;
+    --kuka-text: #102a43;
+    --kuka-muted: #617181;
+    --kuka-font-serif: "Yu Mincho", "Hiragino Mincho ProN", "Noto Serif JP", serif;
+    --kuka-font-sans: "Yu Gothic", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    --kuka-radius-sm: 4px;
+    --kuka-radius-md: 8px;
+    --kuka-shadow-soft: 0 14px 40px rgb(3 29 53 / 8%);
+}

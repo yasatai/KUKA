@@ -1,0 +1,89 @@
+{
+  "disabled_label": "正式信息或链接提供后启用",
+  "brand": {
+    "description": "以清晰、细致的说明为目标的贵金属收购服务预览网站。",
+    "specialty": "金、银、铂、钯专业收购网站"
+  },
+  "groups": [
+    {
+      "key": "prices",
+      "title": "行情信息",
+      "page_key": "prices",
+      "links": [
+        { "label": "今日参考收购价格", "page_key": "prices", "enabled": true },
+        { "label": "行情信息", "page_key": "prices", "enabled": true },
+        { "label": "金、银、铂、钯价格", "page_key": "prices", "enabled": true },
+        { "label": "打印／PDF说明", "page_key": "prices", "enabled": true }
+      ]
+    },
+    {
+      "key": "items",
+      "title": "收购品类",
+      "page_key": "items",
+      "links": [
+        { "label": "贵金属锭・金条", "page_key": "items", "enabled": true },
+        { "label": "硬币・纪念章", "page_key": "items", "enabled": true },
+        { "label": "珠宝・饰品", "page_key": "items", "enabled": true },
+        { "label": "银制品", "page_key": "items", "enabled": true },
+        { "label": "铂制品", "page_key": "items", "enabled": true },
+        { "label": "钯制品", "page_key": "items", "enabled": true },
+        { "label": "废料・工业用材料", "page_key": "items", "enabled": true }
+      ]
+    },
+    {
+      "key": "process",
+      "title": "交易流程",
+      "page_key": "process",
+      "links": [
+        { "label": "初次使用指南", "page_key": "process", "enabled": true },
+        { "label": "到店・受理", "page_key": "process", "enabled": true },
+        { "label": "鉴定・报价", "page_key": "process", "enabled": true },
+        { "label": "身份确认", "page_key": "process", "enabled": true },
+        { "label": "成交・付款", "page_key": "process", "enabled": true },
+        { "label": "所需资料", "page_key": "process", "enabled": true }
+      ]
+    },
+    {
+      "key": "company",
+      "title": "公司信息",
+      "page_key": "company",
+      "links": [
+        { "label": "公司概要", "page_key": "company", "enabled": true },
+        { "label": "交通・地图", "page_key": "company", "enabled": true },
+        { "label": "营业时间", "page_key": "company", "enabled": true },
+        { "label": "许可信息", "page_key": "company", "enabled": true },
+        { "label": "运营者信息", "page_key": "company", "enabled": true }
+      ]
+    },
+    {
+      "key": "news",
+      "title": "通知",
+      "page_key": "news",
+      "links": [
+        { "label": "通知一览", "page_key": "news", "enabled": true },
+        { "label": "营业日历", "page_key": "news", "enabled": true },
+        { "label": "重要通知", "page_key": "news", "enabled": true }
+      ]
+    }
+  ],
+  "contact": {
+    "title": "联系我们",
+    "lead": "正式联系方式获批后启用。表单目前为开发预览。",
+    "links": [
+      { "label": "联系表单", "page_key": "contact", "enabled": true },
+      { "label": "LINE咨询（未连接）", "page_key": null, "enabled": false },
+      { "label": "电话咨询（未登记）", "page_key": null, "enabled": false },
+      { "label": "店面咨询（正式信息待提供）", "page_key": null, "enabled": false }
+    ]
+  },
+  "legal": {
+    "title": "各类文件・条款",
+    "links": [
+      { "label": "隐私政策", "page_key": null, "enabled": false },
+      { "label": "交易条款", "page_key": null, "enabled": false },
+      { "label": "网站地图", "page_key": null, "enabled": false }
+    ],
+    "copyright": "© 2026 KUKA. 开发预览。",
+    "release_note": "正式公开前已停止搜索引擎收录。"
+  }
+}

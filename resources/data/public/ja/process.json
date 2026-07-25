@@ -1,0 +1,23 @@
+{
+  "copy": {
+    "hero": { "image": "images/pages/hero-process.png", "alt": "査定トレイと道具を配した開発用イメージ", "eyebrow": "How it works", "title": "お取引の流れ", "lead": "初めての方にも安心してご利用いただけるよう、ご相談からお支払いまでの流れをご案内します。" },
+    "breadcrumb": "お取引の流れ", "assurance_label": "お取引の安心情報", "steps_eyebrow": "Six steps", "steps_title": "査定からお支払いまでの6ステップ", "documents_eyebrow": "Documents", "documents_title": "ご用意いただくもの", "documents_lead": "本人確認書類の対象と運用条件は正式情報提供後に掲載します。", "notes_eyebrow": "Before visiting", "notes_title": "ご利用にあたってのお願い", "unavailable_title": "買取できないもの", "unavailable_note": "該当する場合は、買取をお断りすることがあります。", "point": "POINT",
+    "cta": { "image": "images/pages/hero-items.png", "title": "まずはお気軽にご相談ください。", "lead": "写真やお品物の情報をお知らせください。", "line": "LINEで事前相談する", "contact": "無料査定を申し込む" }
+  },
+  "assurances": [
+    { "mark": "¥0", "title": "査定料・手数料", "description": "相談時は無料" }, { "mark": "DAY", "title": "お支払い方法", "description": "正式条件確認中" }, { "mark": "ID", "title": "本人確認", "description": "法務確認前" }, { "mark": "LOCK", "title": "プライバシー", "description": "適切に管理" }, { "mark": "PRO", "title": "専門スタッフ", "description": "丁寧に対応" }
+  ],
+  "steps": [
+    { "number": "01", "mark": "SHOP", "title": "ご来店・ご相談", "description": "ご来店前に、お品物やご希望についてお問い合わせ画面からご相談いただけます。", "point": "受付方法の正式情報は提供後に確定します。", "image": "images/pages/hero-company.png", "alt": "相談場所を想定した開発用イメージ" },
+    { "number": "02", "mark": "FORM", "title": "受付・お預かり", "description": "お品物と、取引時に必要となる本人確認書類についてご案内します。", "point": "一点ずつ丁寧に確認します。", "image": "images/pages/hero-contact.png", "alt": "受付書類を想定した開発用イメージ" },
+    { "number": "03", "mark": "LENS", "title": "査定", "description": "重量、品位、状態などを一点ずつ確認し、査定内容を整理します。", "point": "査定基準は正式実装後に接続します。", "image": "images/pages/hero-process.png", "alt": "査定道具と貴金属の開発用イメージ" },
+    { "number": "04", "mark": "CALC", "title": "査定額のご提示", "description": "査定の考え方と金額をご説明します。表示中の価格は開発用です。", "point": "内容を明確にご説明します。", "image": "images/pages/hero-prices.png", "alt": "価格確認を想定した開発用イメージ" },
+    { "number": "05", "mark": "ID", "title": "本人確認", "description": "法令と正式運用に基づく本人確認を行います。対象書類は確認中です。", "point": "法務・運用レビュー前です。", "image": "images/pages/hero-contact.png", "alt": "本人確認を抽象的に示す開発用イメージ" },
+    { "number": "06", "mark": "PAY", "title": "お支払い", "description": "査定内容にご納得いただいた場合のみ、正式な方法でお支払いします。", "point": "支払い条件は正式情報確認中です。", "image": "images/pages/hero-items.png", "alt": "取引完了を想定した開発用イメージ" }
+  ],
+  "documents": [
+    { "title": "本人確認書類", "description": "対象となる書類は法務・運用確認後に掲載します。" }, { "title": "法人のお取引", "description": "法人確認・担当者確認等の追加書類が必要となる場合があります。" }, { "title": "未成年者のお取引", "description": "受付条件は正式な取引方針の確定後に掲載します。" }
+  ],
+  "notes": ["査定内容にご納得いただけない場合は取引を見送れます。", "取引条件・支払方法は正式運用開始前に確定します。", "安全確認や材質確認のため、お時間をいただく場合があります。", "品物の種類や状態により、お預かり確認となる場合があります。"],
+  "unavailable": ["所有関係を確認できない品", "法令で取引が制限される品", "安全に取り扱えない品", "真贋・材質を確認できない一部の品"]
+}
